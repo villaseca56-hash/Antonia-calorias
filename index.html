@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Contador de Calorías Antonia - Anime & Manhwa Edition</title>
+
+  <!-- PWA Metadata -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FFB6C1">
+  <meta name="description" content="Aplicación de nutrición y contador de calorías estilo Manhwa coreano con IA visual y 500+ alimentos offline.">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/anime-theme.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <!-- Chart.js CDN for interactive charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <div id="app">
+    <!-- Application Header -->
+    <header class="app-header">
+      <div class="brand-container">
+        <div class="brand-avatar-mini">
+          <img src="assets/images/characters/antonia_happy.png" alt="Antonia Mascot">
+        </div>
+        <div class="brand-title">
+          <span>ANTONIA</span>
+          <span class="sub">Calorie Counter</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="btn-icon" id="btnHeaderExportPDF" title="Exportar Reporte PDF" onclick="window.appUI.switchView('analyticsView')">📄</button>
+        <button class="btn-icon" id="btnHeaderSettings" title="Configuración" onclick="window.appUI.switchView('recommendationsView')">⚙️</button>
+      </div>
+    </header>
+
+    <!-- Main Views Container -->
+    <main class="view-container">
+
+      <!-- VIEW 1: DASHBOARD MAIN -->
+      <section id="dashboardView" class="view-page active">
+        <!-- Antonia Mascot Banner -->
+        <div class="mascot-container">
+          <div class="mascot-avatar">
+            <img id="mascotImage" src="assets/images/characters/antonia_happy.png" alt="Antonia">
+          </div>
+          <div class="speech-bubble">
+            <p id="mascotSpeech">¡Hola! Soy Antonia. Vamos a registrar tus alimentos de hoy para mantener tu salud al máximo. ✨</p>
+          </div>
+        </div>
+
+        <!-- Calorie Ring Progress Card (Bitepal Style) -->
+        <div class="comic-card">
+          <div class="comic-card-header">
+            <div class="comic-card-title">
+              <span class="icon">🔥</span>
+              <span>Progreso de Calorías</span>
+            </div>
+            <span class="badge-kawaii" style="background: var(--color-lavender); border: 1px solid var(--color-ink); padding: 4px 10px; border-radius: 12px; font-weight: bold; font-size: 0.8rem;">
+              Hoy
+            </span>
+          </div>
+
+          <div class="calorie-progress-wrapper">
+            <div class="ring-container">
+              <svg viewBox="0 0 200 200">
+                <defs>
+                  <linearGradient id="pinkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FFB6C1" />
+                    <stop offset="100%" stop-color="#FF7B9C" />
+                  </linearGradient>
+                </defs>
+                <circle class="ring-bg" cx="100" cy="100" r="90" />
+                <circle id="ringProgressCircle" class="ring-progress" cx="100" cy="100" r="90" />
+              </svg>
+              <div class="ring-inner-stats">
+                <span id="ringConsumed" class="ring-consumed">0</span>
+                <span class="ring-label">kcal consumidas</span>
+                <span id="ringTarget" class="ring-target">Meta: 2000 kcal</span>
+              </div>
+            </div>
+
+            <!-- Macros Bar Grid -->
+            <div class="macros-grid" style="width: 100%;">
+              <div class="macro-card protein">
+                <span class="macro-name">Proteína</span>
+                <span id="macroProteinVal" class="macro-value">0g</span>
+                <div class="macro-bar-track"><div id="macroProteinFill" class="macro-bar-fill" style="width: 0%;"></div></div>
+              </div>
+              <div class="macro-card carbs">
+                <span class="macro-name">Carbos</span>
+                <span id="macroCarbsVal" class="macro-value">0g</span>
+                <div class="macro-bar-track"><div id="macroCarbsFill" class="macro-bar-fill" style="width: 0%;"></div></div>
+              </div>
+              <div class="macro-card fat">
+                <span class="macro-name">Grasas</span>
+                <span id="macroFatVal" class="macro-value">0g</span>
+                <div class="macro-bar-track"><div id="macroFatFill" class="macro-bar-fill" style="width: 0%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Meals Quick Log Slots -->
+        <h3 style="margin: 16px 0 12px 0;">Registro por Comida</h3>
+        <div class="meal-slots-grid">
+          <div class="meal-slot-card" onclick="window.appUI.switchView('logsView')">
+            <div class="meal-slot-header">
+              <span class="meal-slot-icon">🌅</span>
+              <span class="meal-slot-title">Desayuno</span>
+            </div>
+            <div id="mealSlotCals_Desayuno" class="meal-slot-cals">0 kcal</div>
+            <div class="meal-slot-add">+ Agregar comida</div>
+          </div>
+
+          <div class="meal-slot-card" onclick="window.appUI.switchView('logsView')">
+            <div class="meal-slot-header">
+              <span class="meal-slot-icon">☀️</span>
+              <span class="meal-slot-title">Almuerzo</span>
+            </div>
+            <div id="mealSlotCals_Almuerzo" class="meal-slot-cals">0 kcal</div>
+            <div class="meal-slot-add">+ Agregar comida</div>
+          </div>
+
+          <div class="meal-slot-card" onclick="window.appUI.switchView('logsView')">
+            <div class="meal-slot-header">
+              <span class="meal-slot-icon">🌙</span>
+              <span class="meal-slot-title">Cena</span>
+            </div>
+            <div id="mealSlotCals_Cena" class="meal-slot-cals">0 kcal</div>
+            <div class="meal-slot-add">+ Agregar comida</div>
+          </div>
+
+          <div class="meal-slot-card" onclick="window.appUI.switchView('logsView')">
+            <div class="meal-slot-header">
+              <span class="meal-slot-icon">🍏</span>
+              <span class="meal-slot-title">Snacks</span>
+            </div>
+            <div id="mealSlotCals_Snacks" class="meal-slot-cals">0 kcal</div>
+            <div class="meal-slot-add">+ Agregar comida</div>
+          </div>
+        </div>
+
+        <!-- Water Intake Widget -->
+        <div class="water-widget" style="margin-top: 20px;">
+          <div class="water-info">
+            <span class="water-icon">💧</span>
+            <div>
+              <strong style="font-size: 1rem;">Hidratación Diaria</strong>
+              <div id="waterCount" class="water-count">0 / 8 vasos (0 ml)</div>
+            </div>
+          </div>
+          <div class="water-btn-group">
+            <button id="btnWaterSub" class="btn-icon">-</button>
+            <button id="btnWaterAdd" class="btn-icon" style="background: var(--color-pastel-mint);">+</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 2: CAMERA AI SCANNER -->
+      <section id="cameraView" class="view-page">
+        <div class="comic-card">
+          <div class="comic-card-header">
+            <div class="comic-card-title">
+              <span class="icon">📷</span>
+              <span>Reconocimiento Visual IA (±15%)</span>
+            </div>
+          </div>
+
+          <div class="camera-container">
+            <video id="cameraVideo" autoplay playsinline muted></video>
+            <canvas id="cameraCanvas" style="display:none;"></canvas>
+
+            <div class="camera-hud-overlay">
+              <div class="hud-pill">Modo Scanner Antonia AI</div>
+              <div class="scan-target-box">
+                <div class="scan-line"></div>
+              </div>
+              <div class="hud-pill">Encuadra el plato de comida</div>
+            </div>
+          </div>
+
+          <div style="margin-top: 16px; display: flex; gap: 12px; justify-content: center;">
+            <button id="btnCaptureScan" class="btn-kawaii" style="flex: 1; font-size: 1.05rem;">
+              📸 Capturar y Analizar
+            </button>
+            <label class="btn-kawaii btn-kawaii-secondary" style="cursor: pointer; padding: 12px;">
+              📁 Foto
+              <input type="file" id="cameraFileInput" accept="image/*" style="display:none;">
+            </label>
+          </div>
+        </div>
+
+        <!-- AI Result Output Card -->
+        <div id="scanResultOverlay"></div>
+      </section>
+
+      <!-- VIEW 3: DAILY LOG & FOOD DATABASE SEARCH -->
+      <section id="logsView" class="view-page">
+        <div class="comic-card">
+          <div class="comic-card-header">
+            <div class="comic-card-title">
+              <span class="icon">🔍</span>
+              <span>Base de Datos de Alimentos (516 ítems)</span>
+            </div>
+          </div>
+
+          <div class="search-input-wrapper">
+            <span class="search-icon-inside">🔎</span>
+            <input type="text" id="foodSearchInput" class="search-input" placeholder="Buscar manzana, pollo, arroz, sushi...">
+          </div>
+
+          <div style="display: flex; gap: 10px; margin-bottom: 16px;">
+            <select id="foodCategoryFilter" class="search-input" style="padding-left: 14px; flex: 1;">
+              <option value="Todos">Todas las Categorías</option>
+              <option value="Frutas">Frutas</option>
+              <option value="Verduras y Hortalizas">Verduras y Hortalizas</option>
+              <option value="Carnes, Aves y Pescados">Carnes, Aves y Pescados</option>
+              <option value="Cereales y Carbohidratos">Cereales y Carbohidratos</option>
+              <option value="Legumbres, Lácteos y Huevos">Legumbres y Lácteos</option>
+              <option value="Platos Preparados">Platos Preparados</option>
+              <option value="Platos Asiáticos y Antojos">Platos Asiáticos</option>
+              <option value="Snacks, Postres y Bebidas">Snacks y Bebidas</option>
+            </select>
+          </div>
+
+          <div id="foodSearchResults" style="max-height: 380px; overflow-y: auto;"></div>
+        </div>
+
+        <!-- Logged Items List for Date -->
+        <div class="comic-card">
+          <div class="comic-card-header">
+            <div class="comic-card-title">
+              <span class="icon">📋</span>
+              <span>Comidas Registradas</span>
+            </div>
+            <input type="date" id="logDateSelector" class="search-input" style="width: auto; padding: 6px 12px;" onchange="window.appUI.refreshLogsView()">
+          </div>
+
+          <div id="loggedMealsList"></div>
+        </div>
+      </section>
+
+      <!-- VIEW 4: ANALYTICS & PDF REPORTS -->
+      <section id="analyticsView" class="view-page">
+        <div class="comic-card">
+          <div class="comic-card-header">
+            <div class="comic-card-title">
+              <span class="icon">📊</span>
+              <span>Análisis y Reportes</span>
+            </div>
+            <button id="btnExportPDF" class="btn-kawaii btn-kawaii-mint" style="padding: 6px 14px; font-size: 0.85rem;">
+              📥 Descargar PDF
+            </button>
+          </div>
+
+          <div class="macros-grid" style="margin-bottom: 20px;">
+            <div class="macro-card">
+              <span class="macro-name">Promedio Semanal</span>
+              <span id="weeklyAvgCals" class="macro-value">0 kcal</span>
+            </div>
+            <div class="macro-card">
+              <span class="macro-name">Racha Activa</span>
+              <span id="streakDaysCount" class="macro-value">0 días</span>
+            </div>
+            <div class="macro-card">
+              <span class="macro-name">Cumplimiento Mes</span>
+              <span id="monthlyComplianceRate" class="macro-value">0%</span>
+            </div>
+          </div>
+
+          <h4 style="margin-bottom: 10px;">Distribución de Macros (Hoy)</h4>
+          <div style="height: 220px; position: relative;">
+            <canvas id="dailyChart"></canvas>
+          </div>
+
+          <h4 style="margin: 20px 0 10px 0;">Tendencia Semanal de Calorías</h4>
+          <div style="height: 220px; position: relative;">
+            <canvas id="weeklyChart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 5: RECOMMENDATIONS & SETTINGS -->
+      <section id="recommendationsView" class="view-page">
+        <!-- Smart Alerts -->
+        <div id="recommendationAlerts"></div>
+
+        <!-- Suggested Foods for Remaining Calories -->
+        <div class="comic-card">
+          <div class="comic-card-header">
+            <div class="comic-card-title">
+              <span class="icon">💡</span>
+              <span>Sugerencias para Calorías Restantes</span>
+            </div>
+          </div>
+          <div id="suggestedSnacksList"></div>
+        </div>
+
+        <!-- Tomorrow Meal Plan -->
+        <div class="comic-card">
+          <div class="comic-card-header">
+            <div class="comic-card-title">
+              <span class="icon">📅</span>
+              <span>Plan Recomendado para Mañana</span>
+            </div>
+          </div>
+          <div id="tomorrowMealPlan"></div>
+        </div>
+
+        <!-- User Goal & Data Backup Settings -->
+        <div class="comic-card">
+          <div class="comic-card-header">
+            <div class="comic-card-title">
+              <span class="icon">🔒</span>
+              <span>Ajustes, Encriptación y Backup</span>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 16px;">
+            <label style="font-weight: bold; font-size: 0.9rem;">Meta Diaria de Calorías (kcal):</label>
+            <div style="display: flex; gap: 10px; margin-top: 6px;">
+              <input type="number" id="userGoalInput" class="search-input" value="2000" style="padding: 10px 14px;">
+              <button id="btnSaveGoal" class="btn-kawaii" style="padding: 10px 16px;">Guardar</button>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <button id="btnExportBackup" class="btn-kawaii btn-kawaii-secondary">
+              💾 Exportar Backup en JSON (Encriptado)
+            </button>
+            <label class="btn-kawaii btn-kawaii-secondary" style="cursor: pointer; text-align: center;">
+              📂 Importar Backup JSON
+              <input type="file" id="fileImportBackup" accept=".json" style="display:none;">
+            </label>
+            <button id="btnClearData" class="btn-kawaii" style="background: #FF7B9C; color: #FFF;">
+              🗑️ Borrar Todos los Datos (Privacidad)
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Navigation Dock -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-view="dashboardView">
+        <span class="nav-icon">🏠</span>
+        <span>Inicio</span>
+      </button>
+
+      <button class="nav-item" data-view="logsView">
+        <span class="nav-icon">📖</span>
+        <span>Registro</span>
+      </button>
+
+      <button class="nav-item nav-camera-btn" data-view="cameraView" title="Escáner IA">
+        <span class="nav-icon">📷</span>
+      </button>
+
+      <button class="nav-item" data-view="analyticsView">
+        <span class="nav-icon">📊</span>
+        <span>Reportes</span>
+      </button>
+
+      <button class="nav-item" data-view="recommendationsView">
+        <span class="nav-icon">✨</span>
+        <span>Tips</span>
+      </button>
+    </nav>
+
+    <!-- Food Log Modal Dialog -->
+    <div id="logFoodModal" class="modal-overlay">
+      <div class="modal-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px;">
+          <h3 id="modalFoodTitle">Agregar Alimento</h3>
+          <button id="btnCloseModal" class="btn-icon">✕</button>
+        </div>
+
+        <div id="modalFoodCals" style="font-size: 1.1rem; font-weight: bold; color: var(--color-mauve); margin-bottom: 16px;"></div>
+
+        <div style="margin-bottom: 16px;">
+          <label style="font-weight: bold; font-size: 0.9rem;">Comida del Día:</label>
+          <select id="modalMealTypeSelect" class="search-input" style="margin-top: 6px; padding: 10px 14px;">
+            <option value="Desayuno">Desayuno</option>
+            <option value="Almuerzo">Almuerzo</option>
+            <option value="Cena">Cena</option>
+            <option value="Snacks">Snacks</option>
+          </select>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+          <label style="font-weight: bold; font-size: 0.9rem;">Cantidad (Porciones):</label>
+          <input type="number" id="modalFoodAmount" class="search-input" value="1" min="0.1" step="0.1" style="margin-top: 6px; padding: 10px 14px;">
+        </div>
+
+        <button id="btnConfirmAddFood" class="btn-kawaii" style="width: 100%;">
+          Confirmar y Registrar
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JS Modules -->
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/database.js"></script>
+  <script src="assets/js/calorie-calculator.js"></script>
+  <script src="assets/js/camera.js"></script>
+  <script src="assets/js/analytics.js"></script>
+  <script src="assets/js/recommendations.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

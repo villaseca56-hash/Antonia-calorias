@@ -1,0 +1,299 @@
+/* ==========================================================================
+   Contador de Calorías Antonia - Main CSS Base & Layout
+   Korean Manhwa / Anime Core Design System
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Outfit:wght@400;600;700;800&display=swap');
+
+:root {
+  /* Color Tokens - Pastel Anime Palette */
+  --color-primary-pink: #FFB6C1;
+  --color-soft-rose: #FFD1DC;
+  --color-lavender: #E6E6FA;
+  --color-mauve: #DDA0DD;
+  --color-pastel-mint: #98FB98;
+  --color-pastel-cream: #FFF0F5;
+  --color-paper-white: #FDFBF7;
+  --color-gold-accent: #FFD700;
+  --color-sky-blue: #B0E0E6;
+
+  /* Comic Ink Outline & Typography */
+  --color-ink: #2B283A;
+  --color-ink-muted: #5C5870;
+  --color-ink-light: #8E8A9F;
+
+  /* Macros Palette */
+  --color-protein: #FF7B9C;
+  --color-carbs: #64DFDF;
+  --color-fat: #FFD166;
+  --color-water: #4EA8DE;
+
+  /* Typography */
+  --font-main: 'Outfit', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'Noto Sans KR', 'Outfit', sans-serif;
+
+  /* UI Tokens */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-full: 9999px;
+
+  --border-comic: 2.5px solid var(--color-ink);
+  --shadow-comic-sm: 3px 3px 0px var(--color-ink);
+  --shadow-comic-md: 5px 5px 0px var(--color-ink);
+  --shadow-comic-lg: 8px 8px 0px var(--color-ink);
+  --shadow-glow-pink: 0 8px 24px rgba(255, 182, 193, 0.4);
+
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Base Reset & Global Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-main);
+  background-color: var(--color-pastel-cream);
+  color: var(--color-ink);
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(255, 209, 220, 0.4) 0%, transparent 25%),
+    radial-gradient(circle at 90% 80%, rgba(230, 230, 250, 0.5) 0%, transparent 30%),
+    radial-gradient(circle at 50% 50%, rgba(152, 251, 152, 0.2) 0%, transparent 40%);
+  background-attachment: fixed;
+}
+
+/* App Container Layout */
+#app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 90px; /* space for bottom nav bar */
+}
+
+/* Header & Navbar */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: rgba(253, 251, 247, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: var(--border-comic);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-avatar-mini {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--color-ink);
+  background-color: var(--color-soft-rose);
+  overflow: hidden;
+  box-shadow: 2px 2px 0px var(--color-ink);
+}
+
+.brand-avatar-mini img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.brand-title {
+  font-family: var(--font-heading);
+  font-weight: 900;
+  font-size: 1.25rem;
+  letter-spacing: -0.5px;
+  color: var(--color-ink);
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand-title span.sub {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-ink-muted);
+}
+
+/* Action Controls Header */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-sm);
+  border: var(--border-comic);
+  background: var(--color-paper-white);
+  box-shadow: var(--shadow-comic-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.btn-icon:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-comic-md);
+  background: var(--color-lavender);
+}
+
+.btn-icon:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--color-ink);
+}
+
+/* Main View Switcher Container */
+.view-container {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+}
+
+.view-page {
+  display: none;
+  animation: fadeInSlide 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.view-page.active {
+  display: block;
+}
+
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Navigation Bar (Bottom Dock style) */
+.bottom-nav {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: 500px;
+  height: 68px;
+  background: rgba(253, 251, 247, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: var(--border-comic);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-comic-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 8px;
+  z-index: 1000;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  background: none;
+  border: none;
+  color: var(--color-ink-muted);
+  font-family: var(--font-main);
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  position: relative;
+}
+
+.nav-item .nav-icon {
+  font-size: 1.35rem;
+  transition: transform var(--transition-normal);
+}
+
+.nav-item.active {
+  color: var(--color-ink);
+  background: var(--color-soft-rose);
+  border: 1.5px solid var(--color-ink);
+  box-shadow: 2px 2px 0px var(--color-ink);
+}
+
+.nav-item.active .nav-icon {
+  transform: scale(1.15) translateY(-2px);
+}
+
+/* Floating Camera Capture Button in Nav */
+.nav-item.nav-camera-btn {
+  background: linear-gradient(135deg, #FFB6C1 0%, #FFD1DC 100%);
+  border: 2px solid var(--color-ink);
+  box-shadow: var(--shadow-comic-sm);
+  color: var(--color-ink);
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  margin-top: -24px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item.nav-camera-btn .nav-icon {
+  font-size: 1.6rem;
+}
+
+.nav-item.nav-camera-btn:hover {
+  transform: scale(1.08) translateY(-4px);
+  box-shadow: var(--shadow-comic-md);
+}
+
+/* Typography Utilities */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  color: var(--color-ink);
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.5;
+}

@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Contador de Calorías Antonia - Responsive Breakpoints
+   Mobile First to 4K Displays
+   ========================================================================== */
+
+/* Mobile Layout Default (< 600px) */
+@media (max-width: 599px) {
+  .view-container {
+    padding: 12px;
+  }
+
+  .mascot-container {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .mascot-avatar {
+    width: 85px;
+    height: 85px;
+  }
+
+  .speech-bubble {
+    font-size: 0.88rem;
+    padding: 10px 14px;
+  }
+
+  .meal-slots-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .meal-slot-card {
+    padding: 12px;
+    min-height: 100px;
+  }
+
+  .meal-slot-title {
+    font-size: 0.95rem;
+  }
+
+  .meal-slot-cals {
+    font-size: 1.05rem;
+  }
+
+  .camera-container {
+    height: 320px;
+  }
+
+  .scan-target-box {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Tablets (600px to 959px) */
+@media (min-width: 600px) and (max-width: 959px) {
+  .meal-slots-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .ring-container {
+    width: 240px;
+    height: 240px;
+  }
+
+  .mascot-avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Desktop & Large Displays (960px+) */
+@media (min-width: 960px) {
+  #app {
+    padding-bottom: 24px;
+  }
+
+  /* Transform bottom nav to top header navbar on desktop */
+  .bottom-nav {
+    position: static;
+    transform: none;
+    width: auto;
+    max-width: none;
+    height: auto;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    display: flex;
+    gap: 12px;
+    padding: 0;
+  }
+
+  .nav-item.nav-camera-btn {
+    width: auto;
+    height: auto;
+    border-radius: var(--radius-md);
+    margin-top: 0;
+    padding: 8px 18px;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .dashboard-columns {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .meal-slots-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

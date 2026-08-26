@@ -1,0 +1,7265 @@
+[
+  {
+    "id": 1,
+    "name": "Manzana Roja",
+    "category": "Frutas",
+    "calories": 52,
+    "protein": 0.3,
+    "carbs": 13.8,
+    "fat": 0.2,
+    "portion": "1 unidad mediana (150g)",
+    "tags": [
+      "red",
+      "round",
+      "fruit"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Manzana Verde",
+    "category": "Frutas",
+    "calories": 52,
+    "protein": 0.3,
+    "carbs": 13.6,
+    "fat": 0.2,
+    "portion": "1 unidad mediana (150g)",
+    "tags": [
+      "green",
+      "round",
+      "fruit"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Plátano / Banano",
+    "category": "Frutas",
+    "calories": 89,
+    "protein": 1.1,
+    "carbs": 22.8,
+    "fat": 0.3,
+    "portion": "1 unidad mediana (120g)",
+    "tags": [
+      "yellow",
+      "curved",
+      "fruit"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Naranja",
+    "category": "Frutas",
+    "calories": 47,
+    "protein": 0.9,
+    "carbs": 11.8,
+    "fat": 0.1,
+    "portion": "1 unidad mediana (130g)",
+    "tags": [
+      "orange",
+      "round",
+      "fruit"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Frutilla / Fresa",
+    "category": "Frutas",
+    "calories": 32,
+    "protein": 0.7,
+    "carbs": 7.7,
+    "fat": 0.3,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "red",
+      "berry",
+      "fruit"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Uva Negra",
+    "category": "Frutas",
+    "calories": 69,
+    "protein": 0.7,
+    "carbs": 18.1,
+    "fat": 0.2,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "purple",
+      "oval",
+      "fruit"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Uva Verde",
+    "category": "Frutas",
+    "calories": 67,
+    "protein": 0.6,
+    "carbs": 17.3,
+    "fat": 0.2,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "green",
+      "oval",
+      "fruit"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Arándanos",
+    "category": "Frutas",
+    "calories": 57,
+    "protein": 0.7,
+    "carbs": 14.5,
+    "fat": 0.3,
+    "portion": "1 taza (148g)",
+    "tags": [
+      "blue",
+      "dark",
+      "berry"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Frambuesa",
+    "category": "Frutas",
+    "calories": 52,
+    "protein": 1.2,
+    "carbs": 11.9,
+    "fat": 0.7,
+    "portion": "1 taza (123g)",
+    "tags": [
+      "pink",
+      "red",
+      "berry"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Mora",
+    "category": "Frutas",
+    "calories": 43,
+    "protein": 1.4,
+    "carbs": 9.6,
+    "fat": 0.5,
+    "portion": "1 taza (144g)",
+    "tags": [
+      "black",
+      "dark",
+      "berry"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Durazno / Melocotón",
+    "category": "Frutas",
+    "calories": 39,
+    "protein": 0.9,
+    "carbs": 9.5,
+    "fat": 0.3,
+    "portion": "1 unidad (150g)",
+    "tags": [
+      "orange",
+      "yellow",
+      "fruit"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Damasco / Albaricoque",
+    "category": "Frutas",
+    "calories": 48,
+    "protein": 1.4,
+    "carbs": 11.1,
+    "fat": 0.4,
+    "portion": "2 unidades (70g)",
+    "tags": [
+      "orange",
+      "fruit"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Ciruela",
+    "category": "Frutas",
+    "calories": 46,
+    "protein": 0.7,
+    "carbs": 11.4,
+    "fat": 0.3,
+    "portion": "1 unidad (66g)",
+    "tags": [
+      "purple",
+      "dark",
+      "fruit"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Pera",
+    "category": "Frutas",
+    "calories": 57,
+    "protein": 0.4,
+    "carbs": 15.2,
+    "fat": 0.1,
+    "portion": "1 unidad mediana (178g)",
+    "tags": [
+      "green",
+      "yellow",
+      "fruit"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Piña / Ananá",
+    "category": "Frutas",
+    "calories": 50,
+    "protein": 0.5,
+    "carbs": 13.1,
+    "fat": 0.1,
+    "portion": "1 taza picada (165g)",
+    "tags": [
+      "yellow",
+      "tropical"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Mango",
+    "category": "Frutas",
+    "calories": 60,
+    "protein": 0.8,
+    "carbs": 15.0,
+    "fat": 0.4,
+    "portion": "1 taza picada (165g)",
+    "tags": [
+      "yellow",
+      "orange",
+      "tropical"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Sandía",
+    "category": "Frutas",
+    "calories": 30,
+    "protein": 0.6,
+    "carbs": 7.6,
+    "fat": 0.2,
+    "portion": "1 tajada grande (280g)",
+    "tags": [
+      "red",
+      "green",
+      "melon"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Melón Calameño",
+    "category": "Frutas",
+    "calories": 34,
+    "protein": 0.8,
+    "carbs": 8.2,
+    "fat": 0.2,
+    "portion": "1 taza picada (170g)",
+    "tags": [
+      "orange",
+      "melon"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Melón Tuna",
+    "category": "Frutas",
+    "calories": 36,
+    "protein": 0.5,
+    "carbs": 9.1,
+    "fat": 0.1,
+    "portion": "1 taza picada (170g)",
+    "tags": [
+      "green",
+      "light",
+      "melon"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Kiwi",
+    "category": "Frutas",
+    "calories": 61,
+    "protein": 1.1,
+    "carbs": 14.7,
+    "fat": 0.5,
+    "portion": "1 unidad (75g)",
+    "tags": [
+      "brown",
+      "green",
+      "fruit"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Papaya",
+    "category": "Frutas",
+    "calories": 43,
+    "protein": 0.5,
+    "carbs": 10.8,
+    "fat": 0.3,
+    "portion": "1 taza picada (145g)",
+    "tags": [
+      "orange",
+      "tropical"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Higo fresco",
+    "category": "Frutas",
+    "calories": 74,
+    "protein": 0.8,
+    "carbs": 19.2,
+    "fat": 0.3,
+    "portion": "2 unidades (100g)",
+    "tags": [
+      "purple",
+      "green"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Granada",
+    "category": "Frutas",
+    "calories": 83,
+    "protein": 1.7,
+    "carbs": 18.7,
+    "fat": 1.2,
+    "portion": "1/2 unidad (100g)",
+    "tags": [
+      "red",
+      "seeds"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Cereza",
+    "category": "Frutas",
+    "calories": 50,
+    "protein": 1.0,
+    "carbs": 12.0,
+    "fat": 0.3,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "red",
+      "dark",
+      "fruit"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Chirimoya",
+    "category": "Frutas",
+    "calories": 75,
+    "protein": 1.6,
+    "carbs": 17.7,
+    "fat": 0.7,
+    "portion": "100g de pulpa",
+    "tags": [
+      "white",
+      "green",
+      "fruit"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Maracuyá / Fruta de la pasión",
+    "category": "Frutas",
+    "calories": 97,
+    "protein": 2.2,
+    "carbs": 23.4,
+    "fat": 0.7,
+    "portion": "100g de pulpa",
+    "tags": [
+      "yellow",
+      "seeds"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Guayaba",
+    "category": "Frutas",
+    "calories": 68,
+    "protein": 2.6,
+    "carbs": 14.3,
+    "fat": 1.0,
+    "portion": "1 unidad mediana (100g)",
+    "tags": [
+      "pink",
+      "green"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Palta / Aguacate Hass",
+    "category": "Frutas",
+    "calories": 160,
+    "protein": 2.0,
+    "carbs": 8.5,
+    "fat": 14.7,
+    "portion": "1/2 unidad (100g)",
+    "tags": [
+      "green",
+      "dark",
+      "creamy"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Coco fresco rallado",
+    "category": "Frutas",
+    "calories": 354,
+    "protein": 3.3,
+    "carbs": 15.2,
+    "fat": 33.5,
+    "portion": "100g",
+    "tags": [
+      "white",
+      "fat"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Dátil seco",
+    "category": "Frutas",
+    "calories": 277,
+    "protein": 1.8,
+    "carbs": 75.0,
+    "fat": 0.2,
+    "portion": "3 unidades (40g)",
+    "tags": [
+      "brown",
+      "sweet"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Pasa de uva",
+    "category": "Frutas",
+    "calories": 299,
+    "protein": 3.1,
+    "carbs": 79.0,
+    "fat": 0.5,
+    "portion": "1/4 taza (40g)",
+    "tags": [
+      "dark",
+      "brown"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Ciruela pasa",
+    "category": "Frutas",
+    "calories": 240,
+    "protein": 2.2,
+    "carbs": 64.0,
+    "fat": 0.4,
+    "portion": "4 unidades (40g)",
+    "tags": [
+      "dark",
+      "black"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Higo seco",
+    "category": "Frutas",
+    "calories": 249,
+    "protein": 3.3,
+    "carbs": 63.9,
+    "fat": 0.9,
+    "portion": "3 unidades (40g)",
+    "tags": [
+      "brown",
+      "sweet"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Maní tostado",
+    "category": "Frutas",
+    "calories": 567,
+    "protein": 25.8,
+    "carbs": 16.1,
+    "fat": 49.2,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "brown",
+      "nuts"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Nuez de nogal",
+    "category": "Frutas",
+    "calories": 654,
+    "protein": 15.2,
+    "carbs": 13.7,
+    "fat": 65.2,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "brown",
+      "nuts"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Almendra natural",
+    "category": "Frutas",
+    "calories": 579,
+    "protein": 21.2,
+    "carbs": 21.7,
+    "fat": 49.9,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "brown",
+      "nuts"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Castaña de cajú / Anacardo",
+    "category": "Frutas",
+    "calories": 553,
+    "protein": 18.2,
+    "carbs": 30.2,
+    "fat": 43.8,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "white",
+      "beige",
+      "nuts"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Pistacho con cáscara",
+    "category": "Frutas",
+    "calories": 560,
+    "protein": 20.0,
+    "carbs": 27.0,
+    "fat": 45.0,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "green",
+      "purple",
+      "nuts"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Avellana europea",
+    "category": "Frutas",
+    "calories": 628,
+    "protein": 15.0,
+    "carbs": 16.7,
+    "fat": 60.8,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "brown",
+      "nuts"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Semilla de maravilla / Girasol",
+    "category": "Frutas",
+    "calories": 584,
+    "protein": 20.8,
+    "carbs": 20.0,
+    "fat": 51.5,
+    "portion": "2 cucharadas (30g)",
+    "tags": [
+      "black",
+      "grey",
+      "seeds"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Semilla de zapallo / Calabaza",
+    "category": "Frutas",
+    "calories": 559,
+    "protein": 30.2,
+    "carbs": 10.7,
+    "fat": 49.0,
+    "portion": "2 cucharadas (30g)",
+    "tags": [
+      "green",
+      "seeds"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Semilla de chía",
+    "category": "Frutas",
+    "calories": 486,
+    "protein": 16.5,
+    "carbs": 42.1,
+    "fat": 30.7,
+    "portion": "2 cucharadas (25g)",
+    "tags": [
+      "black",
+      "grey",
+      "seeds"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Semilla de linaza",
+    "category": "Frutas",
+    "calories": 534,
+    "protein": 18.3,
+    "carbs": 28.9,
+    "fat": 42.2,
+    "portion": "2 cucharadas (25g)",
+    "tags": [
+      "brown",
+      "seeds"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Sésamo / Ajonjolí",
+    "category": "Frutas",
+    "calories": 573,
+    "protein": 17.7,
+    "carbs": 23.4,
+    "fat": 49.7,
+    "portion": "2 cucharadas (25g)",
+    "tags": [
+      "white",
+      "beige",
+      "seeds"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Limón de pica",
+    "category": "Frutas",
+    "calories": 29,
+    "protein": 1.1,
+    "carbs": 9.3,
+    "fat": 0.3,
+    "portion": "1 unidad (50g)",
+    "tags": [
+      "green",
+      "citrus"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Lima",
+    "category": "Frutas",
+    "calories": 30,
+    "protein": 0.7,
+    "carbs": 10.5,
+    "fat": 0.2,
+    "portion": "1 unidad (60g)",
+    "tags": [
+      "green",
+      "citrus"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Mandarina",
+    "category": "Frutas",
+    "calories": 53,
+    "protein": 0.8,
+    "carbs": 13.3,
+    "fat": 0.3,
+    "portion": "1 unidad (90g)",
+    "tags": [
+      "orange",
+      "citrus"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Pomelo / Toronja",
+    "category": "Frutas",
+    "calories": 42,
+    "protein": 0.8,
+    "carbs": 10.7,
+    "fat": 0.1,
+    "portion": "1/2 unidad (120g)",
+    "tags": [
+      "pink",
+      "orange",
+      "citrus"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Carambola / Fruta estrella",
+    "category": "Frutas",
+    "calories": 31,
+    "protein": 1.0,
+    "carbs": 6.7,
+    "fat": 0.3,
+    "portion": "1 unidad (90g)",
+    "tags": [
+      "yellow",
+      "star"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Kiwano",
+    "category": "Frutas",
+    "calories": 44,
+    "protein": 1.8,
+    "carbs": 7.6,
+    "fat": 1.3,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "orange",
+      "spiky"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Lechuga Costina",
+    "category": "Verduras y Hortalizas",
+    "calories": 15,
+    "protein": 1.4,
+    "carbs": 2.9,
+    "fat": 0.2,
+    "portion": "1 taza (80g)",
+    "tags": [
+      "green",
+      "leaves"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Lechuga Española",
+    "category": "Verduras y Hortalizas",
+    "calories": 13,
+    "protein": 1.2,
+    "carbs": 2.2,
+    "fat": 0.2,
+    "portion": "1 taza (80g)",
+    "tags": [
+      "green",
+      "light"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Espinaca fresca",
+    "category": "Verduras y Hortalizas",
+    "calories": 23,
+    "protein": 2.9,
+    "carbs": 3.6,
+    "fat": 0.4,
+    "portion": "1 taza (100g)",
+    "tags": [
+      "green",
+      "dark"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Acelga cocida",
+    "category": "Verduras y Hortalizas",
+    "calories": 20,
+    "protein": 1.9,
+    "carbs": 3.7,
+    "fat": 0.2,
+    "portion": "1 taza (120g)",
+    "tags": [
+      "green",
+      "dark"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Tomate Larga Vida",
+    "category": "Verduras y Hortalizas",
+    "calories": 18,
+    "protein": 0.9,
+    "carbs": 3.9,
+    "fat": 0.2,
+    "portion": "1 unidad mediana (120g)",
+    "tags": [
+      "red",
+      "round"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Tomate Cherry",
+    "category": "Verduras y Hortalizas",
+    "calories": 18,
+    "protein": 0.9,
+    "carbs": 3.9,
+    "fat": 0.2,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "red",
+      "small"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Zanahoria cruda",
+    "category": "Verduras y Hortalizas",
+    "calories": 41,
+    "protein": 0.9,
+    "carbs": 9.6,
+    "fat": 0.2,
+    "portion": "1 unidad grande (100g)",
+    "tags": [
+      "orange",
+      "stick"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Zanahoria cocida",
+    "category": "Verduras y Hortalizas",
+    "calories": 35,
+    "protein": 0.8,
+    "carbs": 8.2,
+    "fat": 0.2,
+    "portion": "1 taza en rodajas (120g)",
+    "tags": [
+      "orange",
+      "cooked"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Brócoli al vapor",
+    "category": "Verduras y Hortalizas",
+    "calories": 35,
+    "protein": 2.4,
+    "carbs": 7.2,
+    "fat": 0.4,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "green",
+      "tree"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Coliflor al vapor",
+    "category": "Verduras y Hortalizas",
+    "calories": 25,
+    "protein": 1.9,
+    "carbs": 5.0,
+    "fat": 0.3,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "white",
+      "floret"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Zapallito italiano / Calabacín",
+    "category": "Verduras y Hortalizas",
+    "calories": 17,
+    "protein": 1.2,
+    "carbs": 3.1,
+    "fat": 0.3,
+    "portion": "1 taza en cubos (120g)",
+    "tags": [
+      "green",
+      "light"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Berenjena asada",
+    "category": "Verduras y Hortalizas",
+    "calories": 35,
+    "protein": 0.8,
+    "carbs": 8.6,
+    "fat": 0.2,
+    "portion": "1 taza (120g)",
+    "tags": [
+      "purple",
+      "dark"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Pepino con cáscara",
+    "category": "Verduras y Hortalizas",
+    "calories": 15,
+    "protein": 0.7,
+    "carbs": 3.6,
+    "fat": 0.1,
+    "portion": "1 taza en rodajas (130g)",
+    "tags": [
+      "green",
+      "light"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Pimentón Rojo / Pimiento",
+    "category": "Verduras y Hortalizas",
+    "calories": 31,
+    "protein": 1.0,
+    "carbs": 6.0,
+    "fat": 0.3,
+    "portion": "1 unidad mediana (120g)",
+    "tags": [
+      "red",
+      "bright"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Pimentón Verde",
+    "category": "Verduras y Hortalizas",
+    "calories": 20,
+    "protein": 0.9,
+    "carbs": 4.6,
+    "fat": 0.2,
+    "portion": "1 unidad mediana (120g)",
+    "tags": [
+      "green",
+      "bright"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Pimentón Amarillo",
+    "category": "Verduras y Hortalizas",
+    "calories": 27,
+    "protein": 1.0,
+    "carbs": 6.3,
+    "fat": 0.2,
+    "portion": "1 unidad mediana (120g)",
+    "tags": [
+      "yellow",
+      "bright"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Cebolla Morada",
+    "category": "Verduras y Hortalizas",
+    "calories": 40,
+    "protein": 1.1,
+    "carbs": 9.3,
+    "fat": 0.1,
+    "portion": "1 unidad mediana (110g)",
+    "tags": [
+      "purple",
+      "layer"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Cebolla Blanca",
+    "category": "Verduras y Hortalizas",
+    "calories": 40,
+    "protein": 1.1,
+    "carbs": 9.3,
+    "fat": 0.1,
+    "portion": "1 unidad mediana (110g)",
+    "tags": [
+      "white",
+      "layer"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Cebollín / Cebolleta",
+    "category": "Verduras y Hortalizas",
+    "calories": 32,
+    "protein": 1.8,
+    "carbs": 7.3,
+    "fat": 0.2,
+    "portion": "1 taza picado (100g)",
+    "tags": [
+      "green",
+      "white"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Ajo crudo",
+    "category": "Verduras y Hortalizas",
+    "calories": 149,
+    "protein": 6.4,
+    "carbs": 33.1,
+    "fat": 0.5,
+    "portion": "3 dientes (10g)",
+    "tags": [
+      "white",
+      "small"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Champiñón París",
+    "category": "Verduras y Hortalizas",
+    "calories": 22,
+    "protein": 3.1,
+    "carbs": 3.3,
+    "fat": 0.3,
+    "portion": "1 taza rebanado (100g)",
+    "tags": [
+      "white",
+      "brown"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Champiñón Portobello",
+    "category": "Verduras y Hortalizas",
+    "calories": 22,
+    "protein": 2.1,
+    "carbs": 3.9,
+    "fat": 0.4,
+    "portion": "1 unidad grande (84g)",
+    "tags": [
+      "brown",
+      "cap"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Champiñón Shiitake",
+    "category": "Verduras y Hortalizas",
+    "calories": 34,
+    "protein": 2.2,
+    "carbs": 6.8,
+    "fat": 0.5,
+    "portion": "1 taza (100g)",
+    "tags": [
+      "brown",
+      "dark"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Espárragos cocidos",
+    "category": "Verduras y Hortalizas",
+    "calories": 22,
+    "protein": 2.4,
+    "carbs": 4.1,
+    "fat": 0.2,
+    "portion": "5 espárragos (90g)",
+    "tags": [
+      "green",
+      "spear"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Alcachofa cocida",
+    "category": "Verduras y Hortalizas",
+    "calories": 47,
+    "protein": 3.3,
+    "carbs": 10.5,
+    "fat": 0.2,
+    "portion": "1 unidad mediana (120g)",
+    "tags": [
+      "green",
+      "leafy"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Betarraga / Remolacha cocida",
+    "category": "Verduras y Hortalizas",
+    "calories": 44,
+    "protein": 1.7,
+    "carbs": 10.0,
+    "fat": 0.2,
+    "portion": "1 taza en cubos (130g)",
+    "tags": [
+      "purple",
+      "red"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Zapallo Camote cocido",
+    "category": "Verduras y Hortalizas",
+    "calories": 26,
+    "protein": 1.0,
+    "carbs": 6.5,
+    "fat": 0.1,
+    "portion": "1 taza en cubos (140g)",
+    "tags": [
+      "orange",
+      "yellow"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Zapallo Italiano relleno vegetal",
+    "category": "Verduras y Hortalizas",
+    "calories": 120,
+    "protein": 4.5,
+    "carbs": 12.0,
+    "fat": 6.0,
+    "portion": "1 porción (200g)",
+    "tags": [
+      "green",
+      "stuffed"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Rábano picado",
+    "category": "Verduras y Hortalizas",
+    "calories": 16,
+    "protein": 0.7,
+    "carbs": 3.4,
+    "fat": 0.1,
+    "portion": "1 taza (115g)",
+    "tags": [
+      "red",
+      "white"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Repollo Blanco",
+    "category": "Verduras y Hortalizas",
+    "calories": 25,
+    "protein": 1.3,
+    "carbs": 5.8,
+    "fat": 0.1,
+    "portion": "1 taza picado (90g)",
+    "tags": [
+      "light",
+      "green"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Repollo Morado",
+    "category": "Verduras y Hortalizas",
+    "calories": 31,
+    "protein": 1.4,
+    "carbs": 7.4,
+    "fat": 0.2,
+    "portion": "1 taza picado (89g)",
+    "tags": [
+      "purple",
+      "leafy"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Col de Bruselas cocida",
+    "category": "Verduras y Hortalizas",
+    "calories": 36,
+    "protein": 2.6,
+    "carbs": 7.1,
+    "fat": 0.5,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "green",
+      "ball"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Kale / Col rizada cruda",
+    "category": "Verduras y Hortalizas",
+    "calories": 49,
+    "protein": 4.3,
+    "carbs": 8.8,
+    "fat": 0.9,
+    "portion": "1 taza (67g)",
+    "tags": [
+      "green",
+      "curly"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Rúcula / Arúgula",
+    "category": "Verduras y Hortalizas",
+    "calories": 25,
+    "protein": 2.6,
+    "carbs": 3.7,
+    "fat": 0.7,
+    "portion": "1 taza (100g)",
+    "tags": [
+      "green",
+      "leaves"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Choclo / Maíz amarillo cocido",
+    "category": "Verduras y Hortalizas",
+    "calories": 96,
+    "protein": 3.4,
+    "carbs": 21.0,
+    "fat": 1.5,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "yellow",
+      "kernels"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Porotos verdes cocidos",
+    "category": "Verduras y Hortalizas",
+    "calories": 31,
+    "protein": 1.8,
+    "carbs": 7.0,
+    "fat": 0.1,
+    "portion": "1 taza (125g)",
+    "tags": [
+      "green",
+      "pods"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Guisantes / Arvejas cocidas",
+    "category": "Verduras y Hortalizas",
+    "calories": 84,
+    "protein": 5.4,
+    "carbs": 15.6,
+    "fat": 0.4,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "green",
+      "peas"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Habas cocidas",
+    "category": "Verduras y Hortalizas",
+    "calories": 110,
+    "protein": 7.6,
+    "carbs": 19.7,
+    "fat": 0.4,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "green",
+      "beans"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Apio en bastones",
+    "category": "Verduras y Hortalizas",
+    "calories": 16,
+    "protein": 0.7,
+    "carbs": 3.0,
+    "fat": 0.2,
+    "portion": "1 taza picado (100g)",
+    "tags": [
+      "green",
+      "stalk"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Hinojo crudo",
+    "category": "Verduras y Hortalizas",
+    "calories": 31,
+    "protein": 1.2,
+    "carbs": 7.3,
+    "fat": 0.2,
+    "portion": "1 taza (87g)",
+    "tags": [
+      "white",
+      "green"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Nabo cocido",
+    "category": "Verduras y Hortalizas",
+    "calories": 22,
+    "protein": 0.7,
+    "carbs": 5.1,
+    "fat": 0.1,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "white",
+      "root"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Puerro / Ajo porro",
+    "category": "Verduras y Hortalizas",
+    "calories": 61,
+    "protein": 1.5,
+    "carbs": 14.2,
+    "fat": 0.3,
+    "portion": "1 taza (89g)",
+    "tags": [
+      "green",
+      "white"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Palmito en conserva",
+    "category": "Verduras y Hortalizas",
+    "calories": 28,
+    "protein": 2.5,
+    "carbs": 4.6,
+    "fat": 0.6,
+    "portion": "3 bastones (100g)",
+    "tags": [
+      "white",
+      "cylindrical"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Pepinillo en vinagre",
+    "category": "Verduras y Hortalizas",
+    "calories": 11,
+    "protein": 0.3,
+    "carbs": 2.3,
+    "fat": 0.1,
+    "portion": "2 unidades (60g)",
+    "tags": [
+      "green",
+      "pickled"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Aceitunas negras",
+    "category": "Verduras y Hortalizas",
+    "calories": 115,
+    "protein": 0.8,
+    "carbs": 6.3,
+    "fat": 10.7,
+    "portion": "10 unidades (50g)",
+    "tags": [
+      "black",
+      "oval"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Aceitunas verdes",
+    "category": "Verduras y Hortalizas",
+    "calories": 145,
+    "protein": 1.0,
+    "carbs": 3.8,
+    "fat": 15.3,
+    "portion": "10 unidades (50g)",
+    "tags": [
+      "green",
+      "oval"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Alcaparras",
+    "category": "Verduras y Hortalizas",
+    "calories": 23,
+    "protein": 2.4,
+    "carbs": 4.9,
+    "fat": 0.9,
+    "portion": "2 cucharadas (20g)",
+    "tags": [
+      "green",
+      "small"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Brote de soya / Dientes de dragón",
+    "category": "Verduras y Hortalizas",
+    "calories": 30,
+    "protein": 3.0,
+    "carbs": 5.9,
+    "fat": 0.2,
+    "portion": "1 taza (100g)",
+    "tags": [
+      "white",
+      "sprouts"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Brote de alfalfa",
+    "category": "Verduras y Hortalizas",
+    "calories": 23,
+    "protein": 4.0,
+    "carbs": 2.1,
+    "fat": 0.7,
+    "portion": "1 taza (33g)",
+    "tags": [
+      "green",
+      "sprouts"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Kimchi coreano tradicional",
+    "category": "Verduras y Hortalizas",
+    "calories": 15,
+    "protein": 1.1,
+    "carbs": 2.4,
+    "fat": 0.5,
+    "portion": "1/2 taza (75g)",
+    "tags": [
+      "red",
+      "fermented",
+      "spicy"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Pechuga de pollo deshuesada a la plancha",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 165,
+    "protein": 31.0,
+    "carbs": 0.0,
+    "fat": 3.6,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "white",
+      "chicken",
+      "meat"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Muslo de pollo sin piel al horno",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 185,
+    "protein": 24.5,
+    "carbs": 0.0,
+    "fat": 9.2,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "brown",
+      "chicken"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Ala de pollo al horno",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 203,
+    "protein": 22.8,
+    "carbs": 0.0,
+    "fat": 11.9,
+    "portion": "2 unidades (100g)",
+    "tags": [
+      "brown",
+      "chicken"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Pollo asado con piel",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 220,
+    "protein": 25.0,
+    "carbs": 0.0,
+    "fat": 13.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "golden",
+      "skin"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Filete de Pavo a la plancha",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 135,
+    "protein": 29.0,
+    "carbs": 0.0,
+    "fat": 1.8,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "white",
+      "turkey"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Carne picada de pavo magra",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 150,
+    "protein": 22.0,
+    "carbs": 0.0,
+    "fat": 6.5,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "pink",
+      "minced"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Lomo vetado de vacuno a la parrilla",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 240,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 14.5,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "steak"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Lomo liso de vacuno",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 195,
+    "protein": 27.5,
+    "carbs": 0.0,
+    "fat": 9.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "steak"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Filete de vacuno magro",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 165,
+    "protein": 28.0,
+    "carbs": 0.0,
+    "fat": 5.5,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "tenderloin"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Carne molida magra 4% grasa",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 150,
+    "protein": 21.5,
+    "carbs": 0.0,
+    "fat": 4.5,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "minced"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Carne molida corriente 10% grasa",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 215,
+    "protein": 19.5,
+    "carbs": 0.0,
+    "fat": 14.8,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "minced"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Asado de tira de vacuno",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 310,
+    "protein": 23.0,
+    "carbs": 0.0,
+    "fat": 24.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "brown",
+      "ribs"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Costillar de cerdo al horno",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 280,
+    "protein": 24.0,
+    "carbs": 0.0,
+    "fat": 20.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "brown",
+      "pork"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Pulpa de cerdo magra",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 165,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 6.5,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "pink",
+      "pork"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Chuleta de cerdo a la plancha",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 210,
+    "protein": 25.0,
+    "carbs": 0.0,
+    "fat": 12.0,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "brown",
+      "chop"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Lomo de cerdo horneado",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 170,
+    "protein": 27.0,
+    "carbs": 0.0,
+    "fat": 6.8,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "pink",
+      "pork"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Cordero chuleta magra",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 216,
+    "protein": 24.5,
+    "carbs": 0.0,
+    "fat": 12.3,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "lamb"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Filete de Salmón a la plancha",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 206,
+    "protein": 22.0,
+    "carbs": 0.0,
+    "fat": 12.5,
+    "portion": "1 filete (100g)",
+    "tags": [
+      "orange",
+      "pink",
+      "fish"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Salmón ahumado",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 117,
+    "protein": 18.0,
+    "carbs": 0.0,
+    "fat": 4.3,
+    "portion": "3 láminas (60g)",
+    "tags": [
+      "orange",
+      "sliced"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Atún fresco a la plancha",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 130,
+    "protein": 28.0,
+    "carbs": 0.0,
+    "fat": 1.2,
+    "portion": "1 filete (100g)",
+    "tags": [
+      "red",
+      "dark",
+      "fish"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Atún en lata al agua escurrido",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 116,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 1.0,
+    "portion": "1 lata (120g)",
+    "tags": [
+      "grey",
+      "canned"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Atún en lata en aceite escurrido",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 198,
+    "protein": 24.0,
+    "carbs": 0.0,
+    "fat": 11.0,
+    "portion": "1 lata (120g)",
+    "tags": [
+      "yellow",
+      "canned"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Merluza a la plancha",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 90,
+    "protein": 18.5,
+    "carbs": 0.0,
+    "fat": 1.5,
+    "portion": "1 filete (100g)",
+    "tags": [
+      "white",
+      "fish"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Merluza frita empanada",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 210,
+    "protein": 16.0,
+    "carbs": 12.0,
+    "fat": 11.0,
+    "portion": "1 filete (120g)",
+    "tags": [
+      "golden",
+      "fried"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Reineta a la plancha",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 95,
+    "protein": 19.8,
+    "carbs": 0.0,
+    "fat": 1.8,
+    "portion": "1 filete (100g)",
+    "tags": [
+      "white",
+      "fish"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Lenguado al vapor",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 86,
+    "protein": 18.0,
+    "carbs": 0.0,
+    "fat": 1.2,
+    "portion": "1 filete (100g)",
+    "tags": [
+      "white",
+      "thin"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Bacalao horneado",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 105,
+    "protein": 23.0,
+    "carbs": 0.0,
+    "fat": 0.9,
+    "portion": "1 filete (100g)",
+    "tags": [
+      "white",
+      "flaky"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Trucha a la navarra",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 175,
+    "protein": 21.0,
+    "carbs": 0.0,
+    "fat": 9.5,
+    "portion": "1 filete (100g)",
+    "tags": [
+      "pink",
+      "fish"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Sardinas en conserva en tomate",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 185,
+    "protein": 20.0,
+    "carbs": 2.0,
+    "fat": 11.0,
+    "portion": "1 lata (100g)",
+    "tags": [
+      "red",
+      "canned"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Camarones / Gambas cocidas",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 99,
+    "protein": 24.0,
+    "carbs": 0.2,
+    "fat": 0.3,
+    "portion": "10 unidades (100g)",
+    "tags": [
+      "pink",
+      "seafood"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Camarones apanados",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 230,
+    "protein": 15.0,
+    "carbs": 18.0,
+    "fat": 12.0,
+    "portion": "6 unidades (100g)",
+    "tags": [
+      "golden",
+      "crispy"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Calamar a la romana / Frito",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 220,
+    "protein": 14.0,
+    "carbs": 16.0,
+    "fat": 12.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "rings",
+      "golden"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Calamar a la plancha",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 92,
+    "protein": 16.0,
+    "carbs": 3.0,
+    "fat": 1.4,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "white",
+      "tubes"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Pulpo cocido al olivo",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 140,
+    "protein": 18.0,
+    "carbs": 2.0,
+    "fat": 6.5,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "purple",
+      "tentacle"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Ostiones / Vieira a la parmesana",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 180,
+    "protein": 16.0,
+    "carbs": 5.0,
+    "fat": 10.5,
+    "portion": "4 unidades (100g)",
+    "tags": [
+      "white",
+      "cheese"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Choritos / Mejillones al vapor",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 86,
+    "protein": 12.0,
+    "carbs": 3.5,
+    "fat": 2.2,
+    "portion": "1 taza sin concha (100g)",
+    "tags": [
+      "orange",
+      "shell"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Almejas frescas",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 74,
+    "protein": 12.8,
+    "carbs": 2.6,
+    "fat": 1.0,
+    "portion": "1 taza sin concha (100g)",
+    "tags": [
+      "grey",
+      "shell"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Locos con mayonesa",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 160,
+    "protein": 16.0,
+    "carbs": 3.0,
+    "fat": 9.0,
+    "portion": "2 unidades con mayo (120g)",
+    "tags": [
+      "white",
+      "creamy"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Centolla fresca deshuesada",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 90,
+    "protein": 19.0,
+    "carbs": 0.0,
+    "fat": 1.2,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "white"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Jaiba / Cangrejo carne",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 87,
+    "protein": 18.1,
+    "carbs": 0.0,
+    "fat": 1.1,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "white"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Jamón de pavo cocido",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 105,
+    "protein": 17.0,
+    "carbs": 3.0,
+    "fat": 2.5,
+    "portion": "3 fajas (60g)",
+    "tags": [
+      "pink",
+      "sliced"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Jamón de cerdo acaramelado",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 145,
+    "protein": 16.0,
+    "carbs": 4.5,
+    "fat": 7.0,
+    "portion": "3 fajas (60g)",
+    "tags": [
+      "pink",
+      "sliced"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Jamón Serrano / Ibérico",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 240,
+    "protein": 30.0,
+    "carbs": 0.5,
+    "fat": 13.0,
+    "portion": "3 fajas (50g)",
+    "tags": [
+      "dark",
+      "red"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Prosciutto italiano",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 220,
+    "protein": 26.0,
+    "carbs": 0.5,
+    "fat": 12.5,
+    "portion": "3 fajas (50g)",
+    "tags": [
+      "pink",
+      "thin"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Tocino / Bacon frito",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 540,
+    "protein": 37.0,
+    "carbs": 1.4,
+    "fat": 42.0,
+    "portion": "3 tiras (30g)",
+    "tags": [
+      "brown",
+      "crispy"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Salchicha de pavo",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 170,
+    "protein": 12.0,
+    "carbs": 3.0,
+    "fat": 12.0,
+    "portion": "2 unidades (80g)",
+    "tags": [
+      "pink",
+      "sausage"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Salchicha tradicional / Vienesas",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 290,
+    "protein": 11.0,
+    "carbs": 2.5,
+    "fat": 26.0,
+    "portion": "2 unidades (80g)",
+    "tags": [
+      "red",
+      "sausage"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Chorizo riojano parrilleros",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 350,
+    "protein": 18.0,
+    "carbs": 2.0,
+    "fat": 30.0,
+    "portion": "1 unidad (80g)",
+    "tags": [
+      "red",
+      "dark"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Salame italiano",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 410,
+    "protein": 22.0,
+    "carbs": 1.5,
+    "fat": 35.0,
+    "portion": "5 rodajas (40g)",
+    "tags": [
+      "red",
+      "spotted"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Mortadela con pistacho",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 280,
+    "protein": 12.0,
+    "carbs": 3.0,
+    "fat": 24.0,
+    "portion": "3 rodajas (60g)",
+    "tags": [
+      "pink",
+      "large"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Pate de hígado de cerdo",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 320,
+    "protein": 14.0,
+    "carbs": 2.0,
+    "fat": 28.0,
+    "portion": "2 cucharadas (40g)",
+    "tags": [
+      "brown",
+      "spread"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Tofu firme picado",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 76,
+    "protein": 8.0,
+    "carbs": 1.9,
+    "fat": 4.8,
+    "portion": "1/2 taza (100g)",
+    "tags": [
+      "white",
+      "cube"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Tofu sedoso",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 55,
+    "protein": 5.3,
+    "carbs": 2.0,
+    "fat": 2.7,
+    "portion": "1/2 taza (100g)",
+    "tags": [
+      "white",
+      "soft"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Tempeh de soya marinado",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 193,
+    "protein": 19.0,
+    "carbs": 9.0,
+    "fat": 11.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "brown",
+      "grainy"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Seitán / Carne de trigo",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 140,
+    "protein": 25.0,
+    "carbs": 5.0,
+    "fat": 1.5,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "brown",
+      "chewy"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Hamburguesa vegetariana de soya",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 160,
+    "protein": 16.0,
+    "carbs": 9.0,
+    "fat": 6.0,
+    "portion": "1 unidad (90g)",
+    "tags": [
+      "brown",
+      "patty"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Hamburguesa de lentejas artesanal",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 175,
+    "protein": 8.5,
+    "carbs": 24.0,
+    "fat": 5.0,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "brown",
+      "patty"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Proteína de soya texturizada",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 110,
+    "protein": 17.0,
+    "carbs": 8.0,
+    "fat": 0.5,
+    "portion": "1 taza (100g)",
+    "tags": [
+      "brown",
+      "crumbly"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Carnitas de cerdo estilo michoacán",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 290,
+    "protein": 24.0,
+    "carbs": 0.0,
+    "fat": 21.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "brown",
+      "shredded"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Carne al pastor de cerdo",
+    "category": "Carnes, Aves y Pescados",
+    "calories": 230,
+    "protein": 21.0,
+    "carbs": 6.0,
+    "fat": 13.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "red",
+      "orange"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Arroz blanco cocido",
+    "category": "Cereales y Carbohidratos",
+    "calories": 130,
+    "protein": 2.7,
+    "carbs": 28.0,
+    "fat": 0.3,
+    "portion": "1 taza (158g)",
+    "tags": [
+      "white",
+      "grain"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Arroz integral cocido",
+    "category": "Cereales y Carbohidratos",
+    "calories": 111,
+    "protein": 2.6,
+    "carbs": 23.0,
+    "fat": 0.9,
+    "portion": "1 taza (155g)",
+    "tags": [
+      "brown",
+      "grain"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Arroz basmati cocido",
+    "category": "Cereales y Carbohidratos",
+    "calories": 121,
+    "protein": 3.5,
+    "carbs": 25.0,
+    "fat": 0.4,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "white",
+      "long"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Arroz salvaje cocido",
+    "category": "Cereales y Carbohidratos",
+    "calories": 101,
+    "protein": 4.0,
+    "carbs": 21.0,
+    "fat": 0.3,
+    "portion": "1 taza (160g)",
+    "tags": [
+      "dark",
+      "black"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Arroz frito tipo chaufa",
+    "category": "Cereales y Carbohidratos",
+    "calories": 190,
+    "protein": 5.5,
+    "carbs": 30.0,
+    "fat": 6.0,
+    "portion": "1 taza (160g)",
+    "tags": [
+      "yellow",
+      "mixed"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Quínoa cocida",
+    "category": "Cereales y Carbohidratos",
+    "calories": 120,
+    "protein": 4.4,
+    "carbs": 21.3,
+    "fat": 1.9,
+    "portion": "1 taza (185g)",
+    "tags": [
+      "white",
+      "beige",
+      "tiny"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Cuscús cocido",
+    "category": "Cereales y Carbohidratos",
+    "calories": 112,
+    "protein": 3.8,
+    "carbs": 23.0,
+    "fat": 0.2,
+    "portion": "1 taza (157g)",
+    "tags": [
+      "yellow",
+      "tiny"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Cebada perlada cocida",
+    "category": "Cereales y Carbohidratos",
+    "calories": 123,
+    "protein": 2.3,
+    "carbs": 28.0,
+    "fat": 0.4,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "beige",
+      "round"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Mijo cocido",
+    "category": "Cereales y Carbohidratos",
+    "calories": 119,
+    "protein": 3.5,
+    "carbs": 23.7,
+    "fat": 1.0,
+    "portion": "1 taza (174g)",
+    "tags": [
+      "yellow",
+      "tiny"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Avena tradicional cruda",
+    "category": "Cereales y Carbohidratos",
+    "calories": 389,
+    "protein": 16.9,
+    "carbs": 66.3,
+    "fat": 6.9,
+    "portion": "1/2 taza (40g)",
+    "tags": [
+      "beige",
+      "flakes"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Polenta / Harina de maíz cocida",
+    "category": "Cereales y Carbohidratos",
+    "calories": 85,
+    "protein": 2.0,
+    "carbs": 18.0,
+    "fat": 0.5,
+    "portion": "1 taza (180g)",
+    "tags": [
+      "yellow",
+      "mash"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Fideos / Espagueti cocido al dente",
+    "category": "Cereales y Carbohidratos",
+    "calories": 158,
+    "protein": 5.8,
+    "carbs": 31.0,
+    "fat": 0.9,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "yellow",
+      "pasta"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "Espagueti integral cocido",
+    "category": "Cereales y Carbohidratos",
+    "calories": 140,
+    "protein": 6.0,
+    "carbs": 27.0,
+    "fat": 1.1,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "brown",
+      "pasta"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Fideos Espirales / Fusilli",
+    "category": "Cereales y Carbohidratos",
+    "calories": 160,
+    "protein": 5.5,
+    "carbs": 31.5,
+    "fat": 1.0,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "yellow",
+      "spiral"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Macarrones / Penne Rigate",
+    "category": "Cereales y Carbohidratos",
+    "calories": 160,
+    "protein": 5.5,
+    "carbs": 31.5,
+    "fat": 1.0,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "yellow",
+      "tubes"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Lasaña de carne con queso",
+    "category": "Cereales y Carbohidratos",
+    "calories": 320,
+    "protein": 16.0,
+    "carbs": 28.0,
+    "fat": 16.0,
+    "portion": "1 porción (220g)",
+    "tags": [
+      "layered",
+      "baked"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Noodles ramen cocidos sin caldo",
+    "category": "Cereales y Carbohidratos",
+    "calories": 140,
+    "protein": 4.5,
+    "carbs": 26.0,
+    "fat": 2.0,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "yellow",
+      "wavy"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Noodles de arroz / Udon",
+    "category": "Cereales y Carbohidratos",
+    "calories": 110,
+    "protein": 2.0,
+    "carbs": 24.0,
+    "fat": 0.2,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "white",
+      "thick"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Noodles de trigo sarraceno / Soba",
+    "category": "Cereales y Carbohidratos",
+    "calories": 100,
+    "protein": 5.0,
+    "carbs": 21.0,
+    "fat": 0.7,
+    "portion": "1 taza (140g)",
+    "tags": [
+      "grey",
+      "brown"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "Pan Blanco Molde",
+    "category": "Cereales y Carbohidratos",
+    "calories": 75,
+    "protein": 2.3,
+    "carbs": 14.0,
+    "fat": 1.0,
+    "portion": "1 rebanada (30g)",
+    "tags": [
+      "white",
+      "square"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Pan Molde Integral",
+    "category": "Cereales y Carbohidratos",
+    "calories": 70,
+    "protein": 3.0,
+    "carbs": 12.5,
+    "fat": 0.9,
+    "portion": "1 rebanada (30g)",
+    "tags": [
+      "brown",
+      "square"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Pan Marraqueta entero",
+    "category": "Cereales y Carbohidratos",
+    "calories": 280,
+    "protein": 9.0,
+    "carbs": 56.0,
+    "fat": 1.6,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "white",
+      "crispy"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Pan Hallulla entero",
+    "category": "Cereales y Carbohidratos",
+    "calories": 320,
+    "protein": 10.0,
+    "carbs": 58.0,
+    "fat": 4.2,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "round",
+      "flat"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Pan Pita blanco",
+    "category": "Cereales y Carbohidratos",
+    "calories": 165,
+    "protein": 5.5,
+    "carbs": 33.0,
+    "fat": 0.7,
+    "portion": "1 unidad mediana (60g)",
+    "tags": [
+      "white",
+      "pocket"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Pan Pita integral",
+    "category": "Cereales y Carbohidratos",
+    "calories": 150,
+    "protein": 6.0,
+    "carbs": 30.0,
+    "fat": 1.2,
+    "portion": "1 unidad mediana (60g)",
+    "tags": [
+      "brown",
+      "pocket"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Pan Baguette francés",
+    "category": "Cereales y Carbohidratos",
+    "calories": 160,
+    "protein": 5.5,
+    "carbs": 32.0,
+    "fat": 1.0,
+    "portion": "1 trozo (60g)",
+    "tags": [
+      "golden",
+      "crusty"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Pan De Ciabatta",
+    "category": "Cereales y Carbohidratos",
+    "calories": 170,
+    "protein": 6.0,
+    "carbs": 33.0,
+    "fat": 1.5,
+    "portion": "1 unidad pequeña (65g)",
+    "tags": [
+      "floury",
+      "porous"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Pan Focaccia con romero",
+    "category": "Cereales y Carbohidratos",
+    "calories": 210,
+    "protein": 5.0,
+    "carbs": 30.0,
+    "fat": 8.0,
+    "portion": "1 trozo (70g)",
+    "tags": [
+      "herbs",
+      "oily"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "Pan Brioche de hamburguesa",
+    "category": "Cereales y Carbohidratos",
+    "calories": 180,
+    "protein": 5.0,
+    "carbs": 28.0,
+    "fat": 5.5,
+    "portion": "1 unidad (60g)",
+    "tags": [
+      "golden",
+      "shiny"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "Tortilla de trigo para wraps",
+    "category": "Cereales y Carbohidratos",
+    "calories": 140,
+    "protein": 3.5,
+    "carbs": 24.0,
+    "fat": 3.5,
+    "portion": "1 unidad grande (45g)",
+    "tags": [
+      "white",
+      "round"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Tortilla de maíz mexicana",
+    "category": "Cereales y Carbohidratos",
+    "calories": 60,
+    "protein": 1.4,
+    "carbs": 12.0,
+    "fat": 0.7,
+    "portion": "1 unidad (25g)",
+    "tags": [
+      "yellow",
+      "flat"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Arepa de maíz blanco pura",
+    "category": "Cereales y Carbohidratos",
+    "calories": 150,
+    "protein": 3.5,
+    "carbs": 31.0,
+    "fat": 1.0,
+    "portion": "1 unidad (80g)",
+    "tags": [
+      "white",
+      "thick"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Papas hervidas / Cocidas",
+    "category": "Cereales y Carbohidratos",
+    "calories": 87,
+    "protein": 1.9,
+    "carbs": 20.0,
+    "fat": 0.1,
+    "portion": "1 papa mediana (110g)",
+    "tags": [
+      "yellow",
+      "white"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Puré de papas casero con leche",
+    "category": "Cereales y Carbohidratos",
+    "calories": 110,
+    "protein": 2.3,
+    "carbs": 17.0,
+    "fat": 3.8,
+    "portion": "1/2 taza (120g)",
+    "tags": [
+      "creamy",
+      "smooth"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Papas fritas tradicionales",
+    "category": "Cereales y Carbohidratos",
+    "calories": 312,
+    "protein": 3.4,
+    "carbs": 41.0,
+    "fat": 15.0,
+    "portion": "1 porción mediana (100g)",
+    "tags": [
+      "golden",
+      "sticks"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Papas duquesas al horno",
+    "category": "Cereales y Carbohidratos",
+    "calories": 210,
+    "protein": 3.0,
+    "carbs": 26.0,
+    "fat": 10.0,
+    "portion": "6 unidades (100g)",
+    "tags": [
+      "golden",
+      "balls"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Camote / Batata horneada",
+    "category": "Cereales y Carbohidratos",
+    "calories": 90,
+    "protein": 2.0,
+    "carbs": 20.7,
+    "fat": 0.2,
+    "portion": "1 camote chico (110g)",
+    "tags": [
+      "orange",
+      "sweet"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Yuca / Mandioca hervida",
+    "category": "Cereales y Carbohidratos",
+    "calories": 160,
+    "protein": 1.4,
+    "carbs": 38.0,
+    "fat": 0.3,
+    "portion": "1 trozo (100g)",
+    "tags": [
+      "white",
+      "dense"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Choclo entero mazorca",
+    "category": "Cereales y Carbohidratos",
+    "calories": 110,
+    "protein": 3.8,
+    "carbs": 24.0,
+    "fat": 1.3,
+    "portion": "1 coronta mediana (120g)",
+    "tags": [
+      "yellow",
+      "cob"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Noki / Gnocchi de papa cocidos",
+    "category": "Cereales y Carbohidratos",
+    "calories": 175,
+    "protein": 4.0,
+    "carbs": 36.0,
+    "fat": 1.5,
+    "portion": "1 taza (150g)",
+    "tags": [
+      "white",
+      "small"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Galleta de agua / Soda",
+    "category": "Cereales y Carbohidratos",
+    "calories": 22,
+    "protein": 0.5,
+    "carbs": 3.8,
+    "fat": 0.5,
+    "portion": "1 galleta (5g)",
+    "tags": [
+      "square",
+      "dots"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Galleta de salvado integral",
+    "category": "Cereales y Carbohidratos",
+    "calories": 20,
+    "protein": 0.6,
+    "carbs": 3.5,
+    "fat": 0.4,
+    "portion": "1 galleta (5g)",
+    "tags": [
+      "brown",
+      "crispy"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Galleta de arroz inflado",
+    "category": "Cereales y Carbohidratos",
+    "calories": 35,
+    "protein": 0.7,
+    "carbs": 7.3,
+    "fat": 0.3,
+    "portion": "1 disco (9g)",
+    "tags": [
+      "white",
+      "puffed"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Muesli sin azúcar añadida",
+    "category": "Cereales y Carbohidratos",
+    "calories": 180,
+    "protein": 5.0,
+    "carbs": 32.0,
+    "fat": 3.0,
+    "portion": "1/2 taza (50g)",
+    "tags": [
+      "grains",
+      "mixed"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Barra de cereal con avena y miel",
+    "category": "Cereales y Carbohidratos",
+    "calories": 120,
+    "protein": 2.0,
+    "carbs": 22.0,
+    "fat": 2.5,
+    "portion": "1 barra (30g)",
+    "tags": [
+      "bar",
+      "sticky"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Wonton láminas para sopa",
+    "category": "Cereales y Carbohidratos",
+    "calories": 23,
+    "protein": 0.8,
+    "carbs": 4.5,
+    "fat": 0.2,
+    "portion": "2 láminas (10g)",
+    "tags": [
+      "white",
+      "square"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Pan Naan hindú tradicional",
+    "category": "Cereales y Carbohidratos",
+    "calories": 260,
+    "protein": 8.0,
+    "carbs": 45.0,
+    "fat": 5.0,
+    "portion": "1 unidad (90g)",
+    "tags": [
+      "charred",
+      "flat"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Pao de Queijo brasileño",
+    "category": "Cereales y Carbohidratos",
+    "calories": 85,
+    "protein": 2.0,
+    "carbs": 9.0,
+    "fat": 4.5,
+    "portion": "1 bolita (25g)",
+    "tags": [
+      "yellow",
+      "cheesy"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Masa de empanada al horno",
+    "category": "Cereales y Carbohidratos",
+    "calories": 120,
+    "protein": 3.0,
+    "carbs": 20.0,
+    "fat": 3.0,
+    "portion": "1 disco (40g)",
+    "tags": [
+      "circular",
+      "dough"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Sopaipilla tradicional pasada",
+    "category": "Cereales y Carbohidratos",
+    "calories": 160,
+    "protein": 2.5,
+    "carbs": 22.0,
+    "fat": 7.0,
+    "portion": "1 unidad con chancaca (80g)",
+    "tags": [
+      "orange",
+      "round"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Lentejas cocidas",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 116,
+    "protein": 9.0,
+    "carbs": 20.0,
+    "fat": 0.4,
+    "portion": "1 taza (198g)",
+    "tags": [
+      "brown",
+      "small"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "Porotos negros cocidos",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 132,
+    "protein": 8.9,
+    "carbs": 23.7,
+    "fat": 0.5,
+    "portion": "1 taza (172g)",
+    "tags": [
+      "black",
+      "beans"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Porotos blancos / Alubias cocidas",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 127,
+    "protein": 8.7,
+    "carbs": 22.8,
+    "fat": 0.5,
+    "portion": "1 taza (170g)",
+    "tags": [
+      "white",
+      "beans"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Garbanzos cocidos",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 164,
+    "protein": 8.9,
+    "carbs": 27.4,
+    "fat": 2.6,
+    "portion": "1 taza (164g)",
+    "tags": [
+      "beige",
+      "round"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Hummus de garbanzo con sésamo",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 166,
+    "protein": 7.9,
+    "carbs": 14.3,
+    "fat": 9.6,
+    "portion": "3 cucharadas (60g)",
+    "tags": [
+      "beige",
+      "paste"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "Edamame / Soya verde al vapor",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 122,
+    "protein": 11.0,
+    "carbs": 10.0,
+    "fat": 5.0,
+    "portion": "1 taza con vaina (150g)",
+    "tags": [
+      "green",
+      "pods"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Sopa de lentejas con verduras",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 140,
+    "protein": 8.0,
+    "carbs": 22.0,
+    "fat": 2.0,
+    "portion": "1 plato (250ml)",
+    "tags": [
+      "brown",
+      "soup"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Porotos con riendas",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 240,
+    "protein": 11.0,
+    "carbs": 38.0,
+    "fat": 4.5,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "stew",
+      "pasta"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "Leche entera de vaca",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 149,
+    "protein": 7.7,
+    "carbs": 11.7,
+    "fat": 8.0,
+    "portion": "1 vaso (240ml)",
+    "tags": [
+      "white",
+      "liquid"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "Leche semidescremada",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 120,
+    "protein": 8.0,
+    "carbs": 12.0,
+    "fat": 4.8,
+    "portion": "1 vaso (240ml)",
+    "tags": [
+      "white",
+      "liquid"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "Leche descremada / Desnatada",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 83,
+    "protein": 8.3,
+    "carbs": 12.2,
+    "fat": 0.2,
+    "portion": "1 vaso (240ml)",
+    "tags": [
+      "white",
+      "liquid"
+    ]
+  },
+  {
+    "id": 222,
+    "name": "Leche sin lactosa descremada",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 85,
+    "protein": 8.3,
+    "carbs": 12.5,
+    "fat": 0.2,
+    "portion": "1 vaso (240ml)",
+    "tags": [
+      "white",
+      "liquid"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Leche de almendras sin azúcar",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 30,
+    "protein": 1.0,
+    "carbs": 1.0,
+    "fat": 2.5,
+    "portion": "1 vaso (240ml)",
+    "tags": [
+      "white",
+      "plant"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "Leche de soya natural",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 100,
+    "protein": 7.0,
+    "carbs": 8.0,
+    "fat": 4.0,
+    "portion": "1 vaso (240ml)",
+    "tags": [
+      "beige",
+      "plant"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Leche de avena",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 120,
+    "protein": 3.0,
+    "carbs": 16.0,
+    "fat": 5.0,
+    "portion": "1 vaso (240ml)",
+    "tags": [
+      "creamy",
+      "plant"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "Leche de coco en caja ligera",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 45,
+    "protein": 0.5,
+    "carbs": 2.0,
+    "fat": 4.0,
+    "portion": "1 vaso (240ml)",
+    "tags": [
+      "white",
+      "coconut"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Yogurt descremado natural",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 60,
+    "protein": 6.0,
+    "carbs": 8.0,
+    "fat": 0.2,
+    "portion": "1 pote (150g)",
+    "tags": [
+      "white",
+      "creamy"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Yogurt Griego 0% grasa",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 90,
+    "protein": 15.0,
+    "carbs": 5.0,
+    "fat": 0.0,
+    "portion": "1 pote (150g)",
+    "tags": [
+      "thick",
+      "white"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Kéfir de leche",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 110,
+    "protein": 6.0,
+    "carbs": 9.0,
+    "fat": 4.0,
+    "portion": "1 vaso (200ml)",
+    "tags": [
+      "bubbly",
+      "white"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "Quesito fresco / Quesillo",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 98,
+    "protein": 12.0,
+    "carbs": 3.0,
+    "fat": 4.0,
+    "portion": "1 rebanada (80g)",
+    "tags": [
+      "white",
+      "block"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Queso Chanco / Mantecoso",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 330,
+    "protein": 22.0,
+    "carbs": 1.5,
+    "fat": 26.0,
+    "portion": "1 trozo (100g)",
+    "tags": [
+      "yellow",
+      "dense"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Queso Gouda",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 356,
+    "protein": 25.0,
+    "carbs": 2.2,
+    "fat": 27.4,
+    "portion": "1 faja (30g)",
+    "tags": [
+      "yellow",
+      "slice"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Queso Mozzarella fresco",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 280,
+    "protein": 28.0,
+    "carbs": 3.1,
+    "fat": 17.0,
+    "portion": "1 bola (100g)",
+    "tags": [
+      "white",
+      "soft"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Queso Cheddar",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 403,
+    "protein": 25.0,
+    "carbs": 1.3,
+    "fat": 33.0,
+    "portion": "1 faja (30g)",
+    "tags": [
+      "orange",
+      "slice"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Queso Parmesano rallado",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 110,
+    "protein": 10.0,
+    "carbs": 1.0,
+    "fat": 7.5,
+    "portion": "2 cucharadas (25g)",
+    "tags": [
+      "yellow",
+      "grated"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Queso Ricotta descremada",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 138,
+    "protein": 11.0,
+    "carbs": 5.0,
+    "fat": 8.0,
+    "portion": "1/2 taza (100g)",
+    "tags": [
+      "white",
+      "crumbly"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Queso Cottage magro",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 80,
+    "protein": 11.0,
+    "carbs": 3.4,
+    "fat": 2.0,
+    "portion": "1/2 taza (100g)",
+    "tags": [
+      "white",
+      "curds"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "Queso Crema Light",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 45,
+    "protein": 1.5,
+    "carbs": 2.0,
+    "fat": 3.5,
+    "portion": "1 cucharada (25g)",
+    "tags": [
+      "white",
+      "spreadable"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Queso Roquefort / Azul",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 350,
+    "protein": 21.0,
+    "carbs": 2.0,
+    "fat": 29.0,
+    "portion": "1 trozo (50g)",
+    "tags": [
+      "blue",
+      "veined"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "Queso Brie / Camembert",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 295,
+    "protein": 21.0,
+    "carbs": 0.5,
+    "fat": 24.0,
+    "portion": "1 cuña (50g)",
+    "tags": [
+      "white",
+      "creamy"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "Mantequilla de vaca",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 102,
+    "protein": 0.1,
+    "carbs": 0.1,
+    "fat": 11.5,
+    "portion": "1 cucharada (14g)",
+    "tags": [
+      "yellow",
+      "fat"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "Margarina vegetal light",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 50,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 5.5,
+    "portion": "1 cucharada (14g)",
+    "tags": [
+      "yellow",
+      "spread"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "Crema de leche 30% grasa",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 52,
+    "protein": 0.4,
+    "carbs": 0.6,
+    "fat": 5.5,
+    "portion": "1 cucharada (15ml)",
+    "tags": [
+      "white",
+      "thick"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "Crema ácida / Sour cream",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 30,
+    "protein": 0.5,
+    "carbs": 0.6,
+    "fat": 3.0,
+    "portion": "1 cucharada (15g)",
+    "tags": [
+      "white",
+      "sour"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Huevo de gallina entero",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 72,
+    "protein": 6.3,
+    "carbs": 0.4,
+    "fat": 4.8,
+    "portion": "1 huevo grande (50g)",
+    "tags": [
+      "oval",
+      "shell"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "Clara de huevo sola",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 17,
+    "protein": 3.6,
+    "carbs": 0.2,
+    "fat": 0.1,
+    "portion": "1 clara (33g)",
+    "tags": [
+      "clear",
+      "liquid"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Yema de huevo sola",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 55,
+    "protein": 2.7,
+    "carbs": 0.6,
+    "fat": 4.5,
+    "portion": "1 yema (17g)",
+    "tags": [
+      "yellow",
+      "round"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "Huevo de codorniz",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 14,
+    "protein": 1.2,
+    "carbs": 0.0,
+    "fat": 1.0,
+    "portion": "1 unidad (9g)",
+    "tags": [
+      "spotted",
+      "small"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "Postre flan de vainilla casero",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 140,
+    "protein": 4.0,
+    "carbs": 23.0,
+    "fat": 3.5,
+    "portion": "1 pote (120g)",
+    "tags": [
+      "yellow",
+      "caramel"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "Postre leche asada chilena",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 160,
+    "protein": 6.5,
+    "carbs": 22.0,
+    "fat": 5.0,
+    "portion": "1 porción (130g)",
+    "tags": [
+      "baked",
+      "caramel"
+    ]
+  },
+  {
+    "id": 251,
+    "name": "Postre Arroz con leche",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 150,
+    "protein": 4.2,
+    "carbs": 26.0,
+    "fat": 3.0,
+    "portion": "1 pote (150g)",
+    "tags": [
+      "white",
+      "rice"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "Crema pastelera de vainilla",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 180,
+    "protein": 4.0,
+    "carbs": 30.0,
+    "fat": 5.0,
+    "portion": "1/2 taza (100g)",
+    "tags": [
+      "yellow",
+      "creamy"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "Manjar / Dulce de leche",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 60,
+    "protein": 1.3,
+    "carbs": 10.5,
+    "fat": 1.5,
+    "portion": "1 cucharada (20g)",
+    "tags": [
+      "brown",
+      "sweet"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "Suero de leche / Whey protein scoop",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 120,
+    "protein": 24.0,
+    "carbs": 2.0,
+    "fat": 1.5,
+    "portion": "1 medidora (30g)",
+    "tags": [
+      "powder",
+      "protein"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Proteína aislada de soya en polvo",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 110,
+    "protein": 25.0,
+    "carbs": 1.0,
+    "fat": 0.5,
+    "portion": "1 medidora (30g)",
+    "tags": [
+      "beige",
+      "powder"
+    ]
+  },
+  {
+    "id": 256,
+    "name": "Proteína de arveja en polvo",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 115,
+    "protein": 23.0,
+    "carbs": 2.0,
+    "fat": 1.8,
+    "portion": "1 medidora (30g)",
+    "tags": [
+      "greenish",
+      "powder"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "Leche condensada azucarada",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 65,
+    "protein": 1.5,
+    "carbs": 11.0,
+    "fat": 1.8,
+    "portion": "1 cucharada (20g)",
+    "tags": [
+      "sticky",
+      "sweet"
+    ]
+  },
+  {
+    "id": 258,
+    "name": "Leche evaporada desnatada",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 30,
+    "protein": 2.0,
+    "carbs": 3.5,
+    "fat": 0.2,
+    "portion": "2 cucharadas (30ml)",
+    "tags": [
+      "creamy",
+      "thick"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Helado de yogurt bajo en grasa",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 110,
+    "protein": 3.5,
+    "carbs": 20.0,
+    "fat": 2.0,
+    "portion": "1 bola (80g)",
+    "tags": [
+      "pink",
+      "cold"
+    ]
+  },
+  {
+    "id": 260,
+    "name": "Queso Feta griego en cubos",
+    "category": "Legumbres, Lácteos y Huevos",
+    "calories": 140,
+    "protein": 7.0,
+    "carbs": 2.0,
+    "fat": 11.0,
+    "portion": "1/4 taza (50g)",
+    "tags": [
+      "white",
+      "cubes"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "Empanada de pino de vacuno al horno",
+    "category": "Platos Preparados",
+    "calories": 380,
+    "protein": 16.0,
+    "carbs": 42.0,
+    "fat": 16.0,
+    "portion": "1 empanada grande (200g)",
+    "tags": [
+      "baked",
+      "pastry"
+    ]
+  },
+  {
+    "id": 262,
+    "name": "Empanada de queso frita",
+    "category": "Platos Preparados",
+    "calories": 310,
+    "protein": 10.0,
+    "carbs": 28.0,
+    "fat": 18.0,
+    "portion": "1 empanada (130g)",
+    "tags": [
+      "golden",
+      "fried"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "Pastel de choclo casero",
+    "category": "Platos Preparados",
+    "calories": 450,
+    "protein": 22.0,
+    "carbs": 52.0,
+    "fat": 18.0,
+    "portion": "1 porción (350g)",
+    "tags": [
+      "yellow",
+      "clay pot"
+    ]
+  },
+  {
+    "id": 264,
+    "name": "Pastel de papas tradicional",
+    "category": "Platos Preparados",
+    "calories": 410,
+    "protein": 20.0,
+    "carbs": 44.0,
+    "fat": 17.0,
+    "portion": "1 porción (350g)",
+    "tags": [
+      "mash",
+      "brown"
+    ]
+  },
+  {
+    "id": 265,
+    "name": "Cazuela de ave con verduras y choclo",
+    "category": "Platos Preparados",
+    "calories": 280,
+    "protein": 24.0,
+    "carbs": 22.0,
+    "fat": 9.0,
+    "portion": "1 plato profundo (400ml)",
+    "tags": [
+      "soup",
+      "chicken"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "Cazuela de vacuno con zapallo",
+    "category": "Platos Preparados",
+    "calories": 340,
+    "protein": 28.0,
+    "carbs": 24.0,
+    "fat": 14.0,
+    "portion": "1 plato profundo (400ml)",
+    "tags": [
+      "soup",
+      "beef"
+    ]
+  },
+  {
+    "id": 267,
+    "name": "Charquicán con huevo frito",
+    "category": "Platos Preparados",
+    "calories": 360,
+    "protein": 16.0,
+    "carbs": 38.0,
+    "fat": 16.0,
+    "portion": "1 plato (350g)",
+    "tags": [
+      "mash",
+      "egg"
+    ]
+  },
+  {
+    "id": 268,
+    "name": "Completo italiano (palta, tomate, mayo)",
+    "category": "Platos Preparados",
+    "calories": 480,
+    "protein": 14.0,
+    "carbs": 42.0,
+    "fat": 28.0,
+    "portion": "1 completo (220g)",
+    "tags": [
+      "green",
+      "red",
+      "white"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "As luco (carne y queso en pan)",
+    "category": "Platos Preparados",
+    "calories": 520,
+    "protein": 28.0,
+    "carbs": 40.0,
+    "fat": 26.0,
+    "portion": "1 sándwich (250g)",
+    "tags": [
+      "melted",
+      "sandwich"
+    ]
+  },
+  {
+    "id": 270,
+    "name": "Chacarero de vacuno",
+    "category": "Platos Preparados",
+    "calories": 490,
+    "protein": 30.0,
+    "carbs": 44.0,
+    "fat": 21.0,
+    "portion": "1 sándwich (280g)",
+    "tags": [
+      "green",
+      "beef"
+    ]
+  },
+  {
+    "id": 271,
+    "name": "Barros Luco en pan marraqueta",
+    "category": "Platos Preparados",
+    "calories": 510,
+    "protein": 32.0,
+    "carbs": 42.0,
+    "fat": 24.0,
+    "portion": "1 sándwich (240g)",
+    "tags": [
+      "beef",
+      "cheese"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Chorrillana individual",
+    "category": "Platos Preparados",
+    "calories": 780,
+    "protein": 32.0,
+    "carbs": 55.0,
+    "fat": 48.0,
+    "portion": "1 plato chico (400g)",
+    "tags": [
+      "fries",
+      "meat",
+      "egg"
+    ]
+  },
+  {
+    "id": 273,
+    "name": "Ceviche de pescado blanco estilo peruano",
+    "category": "Platos Preparados",
+    "calories": 180,
+    "protein": 24.0,
+    "carbs": 8.0,
+    "fat": 4.0,
+    "portion": "1 plato (200g)",
+    "tags": [
+      "white",
+      "citrus"
+    ]
+  },
+  {
+    "id": 274,
+    "name": "Lomo saltado peruano con arroz",
+    "category": "Platos Preparados",
+    "calories": 550,
+    "protein": 32.0,
+    "carbs": 58.0,
+    "fat": 20.0,
+    "portion": "1 plato (400g)",
+    "tags": [
+      "stirfry",
+      "beef"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "Ají de gallina con arroz blanco",
+    "category": "Platos Preparados",
+    "calories": 480,
+    "protein": 28.0,
+    "carbs": 45.0,
+    "fat": 20.0,
+    "portion": "1 plato (350g)",
+    "tags": [
+      "yellow",
+      "creamy"
+    ]
+  },
+  {
+    "id": 276,
+    "name": "Causa rellena de atún o pollo",
+    "category": "Platos Preparados",
+    "calories": 320,
+    "protein": 14.0,
+    "carbs": 38.0,
+    "fat": 13.0,
+    "portion": "1 porción (200g)",
+    "tags": [
+      "yellow",
+      "layered"
+    ]
+  },
+  {
+    "id": 277,
+    "name": "Tacos al pastor (3 unidades)",
+    "category": "Platos Preparados",
+    "calories": 420,
+    "protein": 22.0,
+    "carbs": 38.0,
+    "fat": 20.0,
+    "portion": "3 tacos (210g)",
+    "tags": [
+      "tortilla",
+      "meat"
+    ]
+  },
+  {
+    "id": 278,
+    "name": "Burrito de carne y frijoles",
+    "category": "Platos Preparados",
+    "calories": 580,
+    "protein": 26.0,
+    "carbs": 68.0,
+    "fat": 22.0,
+    "portion": "1 burrito (300g)",
+    "tags": [
+      "wrapped",
+      "large"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "Enchiladas verdes de pollo",
+    "category": "Platos Preparados",
+    "calories": 380,
+    "protein": 24.0,
+    "carbs": 32.0,
+    "fat": 17.0,
+    "portion": "2 unidades (250g)",
+    "tags": [
+      "green",
+      "sauce"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Quesadilla de queso y champiñón",
+    "category": "Platos Preparados",
+    "calories": 340,
+    "protein": 15.0,
+    "carbs": 28.0,
+    "fat": 19.0,
+    "portion": "1 quesadilla (150g)",
+    "tags": [
+      "folded",
+      "cheese"
+    ]
+  },
+  {
+    "id": 281,
+    "name": "Guacamole con totopos / Nachos",
+    "category": "Platos Preparados",
+    "calories": 320,
+    "protein": 4.0,
+    "carbs": 32.0,
+    "fat": 20.0,
+    "portion": "1 porción (150g)",
+    "tags": [
+      "green",
+      "chips"
+    ]
+  },
+  {
+    "id": 282,
+    "name": "Feijoada brasileña con arroz",
+    "category": "Platos Preparados",
+    "calories": 590,
+    "protein": 34.0,
+    "carbs": 52.0,
+    "fat": 26.0,
+    "portion": "1 plato (400g)",
+    "tags": [
+      "black",
+      "stew"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "Pabellón criollo venezolano",
+    "category": "Platos Preparados",
+    "calories": 620,
+    "protein": 35.0,
+    "carbs": 65.0,
+    "fat": 22.0,
+    "portion": "1 plato (420g)",
+    "tags": [
+      "rice",
+      "beef",
+      "beans"
+    ]
+  },
+  {
+    "id": 284,
+    "name": "Milanesa de pollo a la napolitana",
+    "category": "Platos Preparados",
+    "calories": 460,
+    "protein": 34.0,
+    "carbs": 22.0,
+    "fat": 26.0,
+    "portion": "1 pieza (220g)",
+    "tags": [
+      "baked",
+      "cheese",
+      "red"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "Milanesa de carne frita tradicional",
+    "category": "Platos Preparados",
+    "calories": 410,
+    "protein": 28.0,
+    "carbs": 20.0,
+    "fat": 24.0,
+    "portion": "1 pieza (180g)",
+    "tags": [
+      "golden",
+      "fried"
+    ]
+  },
+  {
+    "id": 286,
+    "name": "Sushi Roll California (8 piezas)",
+    "category": "Platos Preparados",
+    "calories": 310,
+    "protein": 8.0,
+    "carbs": 56.0,
+    "fat": 6.0,
+    "portion": "1 roll (200g)",
+    "tags": [
+      "rice",
+      "roll",
+      "crab"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "Sushi Roll Salmón Avocado (8 piezas)",
+    "category": "Platos Preparados",
+    "calories": 360,
+    "protein": 14.0,
+    "carbs": 52.0,
+    "fat": 11.0,
+    "portion": "1 roll (220g)",
+    "tags": [
+      "orange",
+      "green"
+    ]
+  },
+  {
+    "id": 288,
+    "name": "Sushi Nigiri de Salmón (4 piezas)",
+    "category": "Platos Preparados",
+    "calories": 220,
+    "protein": 10.0,
+    "carbs": 32.0,
+    "fat": 5.0,
+    "portion": "4 piezas (120g)",
+    "tags": [
+      "rice",
+      "salmon"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "Sashimi de Salmón fresco (6 cortes)",
+    "category": "Platos Preparados",
+    "calories": 150,
+    "protein": 20.0,
+    "carbs": 0.0,
+    "fat": 8.0,
+    "portion": "6 cortes (100g)",
+    "tags": [
+      "orange",
+      "sliced"
+    ]
+  },
+  {
+    "id": 290,
+    "name": "Bowl de Pokê de salmón y arroz",
+    "category": "Platos Preparados",
+    "calories": 480,
+    "protein": 24.0,
+    "carbs": 58.0,
+    "fat": 16.0,
+    "portion": "1 bowl (350g)",
+    "tags": [
+      "bowl",
+      "colorful"
+    ]
+  },
+  {
+    "id": 291,
+    "name": "Bibimbap coreano con huevo",
+    "category": "Platos Preparados",
+    "calories": 490,
+    "protein": 20.0,
+    "carbs": 68.0,
+    "fat": 15.0,
+    "portion": "1 bowl (400g)",
+    "tags": [
+      "korean",
+      "bowl",
+      "egg"
+    ]
+  },
+  {
+    "id": 292,
+    "name": "Bulgogi coreano (carne marinada)",
+    "category": "Platos Preparados",
+    "calories": 340,
+    "protein": 26.0,
+    "carbs": 18.0,
+    "fat": 18.0,
+    "portion": "1 porción (200g)",
+    "tags": [
+      "korean",
+      "beef"
+    ]
+  },
+  {
+    "id": 293,
+    "name": "Kimchi Jjigae (sopa de kimchi)",
+    "category": "Platos Preparados",
+    "calories": 180,
+    "protein": 12.0,
+    "carbs": 10.0,
+    "fat": 9.0,
+    "portion": "1 bowl (350ml)",
+    "tags": [
+      "red",
+      "spicy",
+      "soup"
+    ]
+  },
+  {
+    "id": 294,
+    "name": "Tteokbokki coreano picante",
+    "category": "Platos Preparados",
+    "calories": 380,
+    "protein": 7.0,
+    "carbs": 78.0,
+    "fat": 4.0,
+    "portion": "1 plato (250g)",
+    "tags": [
+      "red",
+      "ricecakes"
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Japchae coreano",
+    "category": "Platos Preparados",
+    "calories": 320,
+    "protein": 6.0,
+    "carbs": 54.0,
+    "fat": 9.0,
+    "portion": "1 plato (200g)",
+    "tags": [
+      "noodles",
+      "glossy"
+    ]
+  },
+  {
+    "id": 296,
+    "name": "Pollo frito estilo coreano",
+    "category": "Platos Preparados",
+    "calories": 460,
+    "protein": 26.0,
+    "carbs": 28.0,
+    "fat": 26.0,
+    "portion": "3 presas (200g)",
+    "tags": [
+      "crispy",
+      "glaze"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Ramen de cerdo Tonkotsu completo",
+    "category": "Platos Preparados",
+    "calories": 580,
+    "protein": 28.0,
+    "carbs": 62.0,
+    "fat": 24.0,
+    "portion": "1 bowl (500ml)",
+    "tags": [
+      "noodle",
+      "broth"
+    ]
+  },
+  {
+    "id": 298,
+    "name": "Pad Thai de camarones tailandés",
+    "category": "Platos Preparados",
+    "calories": 480,
+    "protein": 22.0,
+    "carbs": 64.0,
+    "fat": 15.0,
+    "portion": "1 plato (350g)",
+    "tags": [
+      "noodles",
+      "peanuts"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Curry verde tailandés con pollo",
+    "category": "Platos Preparados",
+    "calories": 410,
+    "protein": 24.0,
+    "carbs": 16.0,
+    "fat": 28.0,
+    "portion": "1 plato con arroz (350g)",
+    "tags": [
+      "green",
+      "curry"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "Chop Suey de pollo y verduras",
+    "category": "Platos Preparados",
+    "calories": 240,
+    "protein": 22.0,
+    "carbs": 14.0,
+    "fat": 11.0,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "stirfry",
+      "veggies"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Pollo Kung Pao con maní",
+    "category": "Platos Preparados",
+    "calories": 390,
+    "protein": 26.0,
+    "carbs": 18.0,
+    "fat": 24.0,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "red",
+      "peanuts"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Arroz Chaufa de mariscos",
+    "category": "Platos Preparados",
+    "calories": 440,
+    "protein": 22.0,
+    "carbs": 56.0,
+    "fat": 14.0,
+    "portion": "1 plato (350g)",
+    "tags": [
+      "fried",
+      "rice"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Gyozas de cerdo al vapor",
+    "category": "Platos Preparados",
+    "calories": 220,
+    "protein": 10.0,
+    "carbs": 24.0,
+    "fat": 9.0,
+    "portion": "5 unidades (120g)",
+    "tags": [
+      "dumplings",
+      "crescent"
+    ]
+  },
+  {
+    "id": 304,
+    "name": "Spring Rolls / Arrollado primavera",
+    "category": "Platos Preparados",
+    "calories": 180,
+    "protein": 4.0,
+    "carbs": 22.0,
+    "fat": 8.5,
+    "portion": "2 unidades (100g)",
+    "tags": [
+      "crispy",
+      "rolls"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Pizza Margherita (2 rebanadas)",
+    "category": "Platos Preparados",
+    "calories": 380,
+    "protein": 15.0,
+    "carbs": 44.0,
+    "fat": 16.0,
+    "portion": "2 rebanadas (180g)",
+    "tags": [
+      "cheese",
+      "red"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "Pizza Pepperoni (2 rebanadas)",
+    "category": "Platos Preparados",
+    "calories": 460,
+    "protein": 18.0,
+    "carbs": 44.0,
+    "fat": 24.0,
+    "portion": "2 rebanadas (180g)",
+    "tags": [
+      "pepperoni",
+      "cheese"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Hamburguesa con queso simple",
+    "category": "Platos Preparados",
+    "calories": 420,
+    "protein": 22.0,
+    "carbs": 36.0,
+    "fat": 21.0,
+    "portion": "1 burger (180g)",
+    "tags": [
+      "bun",
+      "patty"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "Hamburguesa doble con tocino",
+    "category": "Platos Preparados",
+    "calories": 720,
+    "protein": 38.0,
+    "carbs": 40.0,
+    "fat": 44.0,
+    "portion": "1 burger (280g)",
+    "tags": [
+      "double",
+      "cheesy"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "Nuggets de pollo fritos",
+    "category": "Platos Preparados",
+    "calories": 270,
+    "protein": 14.0,
+    "carbs": 16.0,
+    "fat": 16.0,
+    "portion": "6 piezas (100g)",
+    "tags": [
+      "golden",
+      "bites"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "Hot Dog americano completo",
+    "category": "Platos Preparados",
+    "calories": 310,
+    "protein": 11.0,
+    "carbs": 26.0,
+    "fat": 18.0,
+    "portion": "1 hotdog (140g)",
+    "tags": [
+      "bun",
+      "sausage"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "Falafel en pan pita con tahini",
+    "category": "Platos Preparados",
+    "calories": 420,
+    "protein": 14.0,
+    "carbs": 52.0,
+    "fat": 18.0,
+    "portion": "1 sandwich (220g)",
+    "tags": [
+      "green",
+      "balls"
+    ]
+  },
+  {
+    "id": 312,
+    "name": "Shawarma de pollo completo",
+    "category": "Platos Preparados",
+    "calories": 520,
+    "protein": 28.0,
+    "carbs": 46.0,
+    "fat": 24.0,
+    "portion": "1 roll (280g)",
+    "tags": [
+      "wrapped",
+      "meat"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "Kebab de carne en plato",
+    "category": "Platos Preparados",
+    "calories": 450,
+    "protein": 32.0,
+    "carbs": 14.0,
+    "fat": 30.0,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "grilled",
+      "meat"
+    ]
+  },
+  {
+    "id": 314,
+    "name": "Paella valenciana de mariscos",
+    "category": "Platos Preparados",
+    "calories": 410,
+    "protein": 22.0,
+    "carbs": 54.0,
+    "fat": 12.0,
+    "portion": "1 plato (350g)",
+    "tags": [
+      "yellow",
+      "seafood"
+    ]
+  },
+  {
+    "id": 315,
+    "name": "Tortilla de papas española",
+    "category": "Platos Preparados",
+    "calories": 260,
+    "protein": 7.0,
+    "carbs": 22.0,
+    "fat": 16.0,
+    "portion": "1 cuña (150g)",
+    "tags": [
+      "round",
+      "yellow"
+    ]
+  },
+  {
+    "id": 316,
+    "name": "Gazpacho andaluz de tomate",
+    "category": "Platos Preparados",
+    "calories": 90,
+    "protein": 2.0,
+    "carbs": 9.0,
+    "fat": 5.0,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "red",
+      "cold"
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Croquetas de jamón ibérico",
+    "category": "Platos Preparados",
+    "calories": 240,
+    "protein": 8.0,
+    "carbs": 20.0,
+    "fat": 14.0,
+    "portion": "4 unidades (100g)",
+    "tags": [
+      "golden",
+      "oval"
+    ]
+  },
+  {
+    "id": 318,
+    "name": "Risotto de champiñones",
+    "category": "Platos Preparados",
+    "calories": 380,
+    "protein": 10.0,
+    "carbs": 48.0,
+    "fat": 16.0,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "creamy",
+      "rice"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Spaghetti alla Carbonara",
+    "category": "Platos Preparados",
+    "calories": 520,
+    "protein": 20.0,
+    "carbs": 56.0,
+    "fat": 24.0,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "pasta",
+      "creamy"
+    ]
+  },
+  {
+    "id": 320,
+    "name": "Spaghetti Bolognese de carne",
+    "category": "Platos Preparados",
+    "calories": 440,
+    "protein": 21.0,
+    "carbs": 54.0,
+    "fat": 15.0,
+    "portion": "1 plato (350g)",
+    "tags": [
+      "red",
+      "pasta"
+    ]
+  },
+  {
+    "id": 321,
+    "name": "Pesto Genovés con penne",
+    "category": "Platos Preparados",
+    "calories": 460,
+    "protein": 12.0,
+    "carbs": 52.0,
+    "fat": 22.0,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "green",
+      "pasta"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "Curry Tikka Masala de pollo",
+    "category": "Platos Preparados",
+    "calories": 540,
+    "protein": 30.0,
+    "carbs": 52.0,
+    "fat": 22.0,
+    "portion": "1 plato (400g)",
+    "tags": [
+      "orange",
+      "curry"
+    ]
+  },
+  {
+    "id": 323,
+    "name": "Samosa de verduras frita",
+    "category": "Platos Preparados",
+    "calories": 150,
+    "protein": 3.5,
+    "carbs": 18.0,
+    "fat": 7.5,
+    "portion": "1 unidad (60g)",
+    "tags": [
+      "triangle",
+      "crispy"
+    ]
+  },
+  {
+    "id": 324,
+    "name": "Ramen de miso tradicional",
+    "category": "Platos Preparados",
+    "calories": 510,
+    "protein": 24.0,
+    "carbs": 60.0,
+    "fat": 19.0,
+    "portion": "1 bowl (500ml)",
+    "tags": [
+      "brown",
+      "soup"
+    ]
+  },
+  {
+    "id": 325,
+    "name": "Maki de pepino y aguacate",
+    "category": "Platos Preparados",
+    "calories": 180,
+    "protein": 3.5,
+    "carbs": 36.0,
+    "fat": 3.0,
+    "portion": "6 piezas (140g)",
+    "tags": [
+      "green",
+      "rice"
+    ]
+  },
+  {
+    "id": 326,
+    "name": "Sopa miso tradicional",
+    "category": "Platos Preparados",
+    "calories": 70,
+    "protein": 5.0,
+    "carbs": 6.0,
+    "fat": 3.0,
+    "portion": "1 bowl (200ml)",
+    "tags": [
+      "cloudy",
+      "soup"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "Nigiri de atún (4 piezas)",
+    "category": "Platos Preparados",
+    "calories": 200,
+    "protein": 12.0,
+    "carbs": 32.0,
+    "fat": 2.0,
+    "portion": "4 piezas (120g)",
+    "tags": [
+      "red",
+      "rice"
+    ]
+  },
+  {
+    "id": 328,
+    "name": "Arepa reina pepiada",
+    "category": "Platos Preparados",
+    "calories": 420,
+    "protein": 20.0,
+    "carbs": 36.0,
+    "fat": 21.0,
+    "portion": "1 unidad (220g)",
+    "tags": [
+      "green",
+      "white"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Chicharrón de cerdo con yuca",
+    "category": "Platos Preparados",
+    "calories": 580,
+    "protein": 28.0,
+    "carbs": 30.0,
+    "fat": 38.0,
+    "portion": "1 porción (250g)",
+    "tags": [
+      "crispy",
+      "pork"
+    ]
+  },
+  {
+    "id": 330,
+    "name": "Caldo de patas tradicional",
+    "category": "Platos Preparados",
+    "calories": 220,
+    "protein": 18.0,
+    "carbs": 12.0,
+    "fat": 11.0,
+    "portion": "1 plato (350ml)",
+    "tags": [
+      "soup",
+      "rich"
+    ]
+  },
+  {
+    "id": 331,
+    "name": "Crema de zapallo auroma",
+    "category": "Platos Preparados",
+    "calories": 140,
+    "protein": 3.0,
+    "carbs": 18.0,
+    "fat": 6.0,
+    "portion": "1 bowl (250ml)",
+    "tags": [
+      "orange",
+      "soup"
+    ]
+  },
+  {
+    "id": 332,
+    "name": "Sopa de cebolla gratinada",
+    "category": "Platos Preparados",
+    "calories": 210,
+    "protein": 8.0,
+    "carbs": 18.0,
+    "fat": 11.0,
+    "portion": "1 bowl (250ml)",
+    "tags": [
+      "cheese",
+      "brown"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "Chowder de almejas",
+    "category": "Platos Preparados",
+    "calories": 280,
+    "protein": 12.0,
+    "carbs": 22.0,
+    "fat": 16.0,
+    "portion": "1 bowl (250ml)",
+    "tags": [
+      "white",
+      "creamy"
+    ]
+  },
+  {
+    "id": 334,
+    "name": "Goulash de ternera",
+    "category": "Platos Preparados",
+    "calories": 480,
+    "protein": 32.0,
+    "carbs": 36.0,
+    "fat": 22.0,
+    "portion": "1 plato (350g)",
+    "tags": [
+      "red",
+      "stew"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "Schnitzel de cerdo estilo vienés",
+    "category": "Platos Preparados",
+    "calories": 420,
+    "protein": 28.0,
+    "carbs": 24.0,
+    "fat": 24.0,
+    "portion": "1 pieza (200g)",
+    "tags": [
+      "golden",
+      "breaded"
+    ]
+  },
+  {
+    "id": 336,
+    "name": "Chili con carne y frijoles",
+    "category": "Platos Preparados",
+    "calories": 360,
+    "protein": 24.0,
+    "carbs": 32.0,
+    "fat": 15.0,
+    "portion": "1 bowl (300g)",
+    "tags": [
+      "red",
+      "beans"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Nachos supremos con queso",
+    "category": "Platos Preparados",
+    "calories": 680,
+    "protein": 24.0,
+    "carbs": 58.0,
+    "fat": 40.0,
+    "portion": "1 plato grande (300g)",
+    "tags": [
+      "chips",
+      "melted"
+    ]
+  },
+  {
+    "id": 338,
+    "name": "Ceviche mixto de mariscos",
+    "category": "Platos Preparados",
+    "calories": 210,
+    "protein": 26.0,
+    "carbs": 10.0,
+    "fat": 5.0,
+    "portion": "1 plato (220g)",
+    "tags": [
+      "seafood",
+      "citrus"
+    ]
+  },
+  {
+    "id": 339,
+    "name": "Tiradito de salmón",
+    "category": "Platos Preparados",
+    "calories": 220,
+    "protein": 20.0,
+    "carbs": 6.0,
+    "fat": 12.0,
+    "portion": "1 plato (180g)",
+    "tags": [
+      "yellow",
+      "fish"
+    ]
+  },
+  {
+    "id": 340,
+    "name": "Ajiaco colombiano con choclo",
+    "category": "Platos Preparados",
+    "calories": 380,
+    "protein": 22.0,
+    "carbs": 42.0,
+    "fat": 14.0,
+    "portion": "1 plato (400ml)",
+    "tags": [
+      "soup",
+      "potato"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "Agua purificada mineral",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "clear",
+      "water"
+    ]
+  },
+  {
+    "id": 342,
+    "name": "Café negro sin azúcar",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 2,
+    "protein": 0.3,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "portion": "1 taza (200ml)",
+    "tags": [
+      "black",
+      "coffee"
+    ]
+  },
+  {
+    "id": 343,
+    "name": "Café cortado con leche",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 35,
+    "protein": 2.0,
+    "carbs": 3.0,
+    "fat": 1.5,
+    "portion": "1 taza (150ml)",
+    "tags": [
+      "brown",
+      "creamy"
+    ]
+  },
+  {
+    "id": 344,
+    "name": "Cappuccino tradicional",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 80,
+    "protein": 4.5,
+    "carbs": 6.0,
+    "fat": 4.0,
+    "portion": "1 taza (200ml)",
+    "tags": [
+      "foam",
+      "brown"
+    ]
+  },
+  {
+    "id": 345,
+    "name": "Café Latte con leche entera",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 140,
+    "protein": 7.0,
+    "carbs": 11.0,
+    "fat": 7.5,
+    "portion": "1 taza grande (300ml)",
+    "tags": [
+      "creamy",
+      "light"
+    ]
+  },
+  {
+    "id": 346,
+    "name": "Té verde / Té negro",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 2,
+    "protein": 0.0,
+    "carbs": 0.4,
+    "fat": 0.0,
+    "portion": "1 taza (200ml)",
+    "tags": [
+      "green",
+      "tea"
+    ]
+  },
+  {
+    "id": 347,
+    "name": "Té Matcha latte",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 70,
+    "protein": 2.0,
+    "carbs": 8.0,
+    "fat": 3.0,
+    "portion": "1 taza (250ml)",
+    "tags": [
+      "green",
+      "creamy"
+    ]
+  },
+  {
+    "id": 348,
+    "name": "Boba Tea / Bubble tea",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 280,
+    "protein": 2.0,
+    "carbs": 54.0,
+    "fat": 6.0,
+    "portion": "1 vaso (400ml)",
+    "tags": [
+      "pearls",
+      "sweet"
+    ]
+  },
+  {
+    "id": 349,
+    "name": "Jugo de naranja natural",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 110,
+    "protein": 1.8,
+    "carbs": 25.5,
+    "fat": 0.5,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "orange",
+      "liquid"
+    ]
+  },
+  {
+    "id": 350,
+    "name": "Jugo de manzana envasado",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 115,
+    "protein": 0.2,
+    "carbs": 28.0,
+    "fat": 0.2,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "amber",
+      "liquid"
+    ]
+  },
+  {
+    "id": 351,
+    "name": "Limonada casera con menta",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 60,
+    "protein": 0.2,
+    "carbs": 15.0,
+    "fat": 0.1,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "yellow",
+      "green"
+    ]
+  },
+  {
+    "id": 352,
+    "name": "Bebida gaseosa cola",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 105,
+    "protein": 0.0,
+    "carbs": 26.5,
+    "fat": 0.0,
+    "portion": "1 lata (350ml)",
+    "tags": [
+      "dark",
+      "carbonated"
+    ]
+  },
+  {
+    "id": 353,
+    "name": "Bebida gaseosa Zero / Light",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 1,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "portion": "1 lata (350ml)",
+    "tags": [
+      "dark",
+      "zero"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "Bebida isotónica deportiva",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 80,
+    "protein": 0.0,
+    "carbs": 20.0,
+    "fat": 0.0,
+    "portion": "1 botella (500ml)",
+    "tags": [
+      "blue",
+      "liquid"
+    ]
+  },
+  {
+    "id": 355,
+    "name": "Cerveza rubia lager",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 145,
+    "protein": 1.5,
+    "carbs": 11.0,
+    "fat": 0.0,
+    "portion": "1 lata (350ml)",
+    "tags": [
+      "golden",
+      "foam"
+    ]
+  },
+  {
+    "id": 356,
+    "name": "Cerveza Sin Alcohol",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 70,
+    "protein": 0.8,
+    "carbs": 14.0,
+    "fat": 0.0,
+    "portion": "1 lata (350ml)",
+    "tags": [
+      "amber",
+      "foam"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "Vino tinto reserva",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 125,
+    "protein": 0.3,
+    "carbs": 3.8,
+    "fat": 0.0,
+    "portion": "1 copa (150ml)",
+    "tags": [
+      "red",
+      "dark",
+      "wine"
+    ]
+  },
+  {
+    "id": 358,
+    "name": "Vino blanco sauvignon",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 120,
+    "protein": 0.1,
+    "carbs": 3.0,
+    "fat": 0.0,
+    "portion": "1 copa (150ml)",
+    "tags": [
+      "yellow",
+      "light"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "Pisco Sour tradicional",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 210,
+    "protein": 0.8,
+    "carbs": 18.0,
+    "fat": 0.1,
+    "portion": "1 copa (120ml)",
+    "tags": [
+      "foam",
+      "yellow"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "Chocolate negro 70% cacao",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 170,
+    "protein": 2.3,
+    "carbs": 13.0,
+    "fat": 12.0,
+    "portion": "3 cuadritos (30g)",
+    "tags": [
+      "dark",
+      "square"
+    ]
+  },
+  {
+    "id": 361,
+    "name": "Chocolate con leche",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 160,
+    "protein": 2.1,
+    "carbs": 17.5,
+    "fat": 9.5,
+    "portion": "3 cuadritos (30g)",
+    "tags": [
+      "brown",
+      "square"
+    ]
+  },
+  {
+    "id": 362,
+    "name": "Chocolate blanco",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 165,
+    "protein": 1.8,
+    "carbs": 17.8,
+    "fat": 9.8,
+    "portion": "3 cuadritos (30g)",
+    "tags": [
+      "white",
+      "square"
+    ]
+  },
+  {
+    "id": 363,
+    "name": "Bombón Ferrero",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 75,
+    "protein": 1.0,
+    "carbs": 5.5,
+    "fat": 5.5,
+    "portion": "1 unidad (12.5g)",
+    "tags": [
+      "gold",
+      "round"
+    ]
+  },
+  {
+    "id": 364,
+    "name": "Alfajor de manjar con chocolate",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 220,
+    "protein": 3.5,
+    "carbs": 32.0,
+    "fat": 9.0,
+    "portion": "1 unidad (50g)",
+    "tags": [
+      "round",
+      "dark"
+    ]
+  },
+  {
+    "id": 365,
+    "name": "Alfajor de maicena con coco",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 190,
+    "protein": 2.8,
+    "carbs": 28.0,
+    "fat": 7.5,
+    "portion": "1 unidad (45g)",
+    "tags": [
+      "white",
+      "round"
+    ]
+  },
+  {
+    "id": 366,
+    "name": "Brownie de chocolate con nuez",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 240,
+    "protein": 3.2,
+    "carbs": 30.0,
+    "fat": 12.0,
+    "portion": "1 trozo (60g)",
+    "tags": [
+      "dark",
+      "square"
+    ]
+  },
+  {
+    "id": 367,
+    "name": "Galletas Chocochip caseras",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 140,
+    "protein": 1.8,
+    "carbs": 18.0,
+    "fat": 7.0,
+    "portion": "2 galletas (30g)",
+    "tags": [
+      "brown",
+      "dots"
+    ]
+  },
+  {
+    "id": 368,
+    "name": "Donut glaseada simple",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 240,
+    "protein": 3.0,
+    "carbs": 27.0,
+    "fat": 13.0,
+    "portion": "1 unidad (60g)",
+    "tags": [
+      "ring",
+      "glazed"
+    ]
+  },
+  {
+    "id": 369,
+    "name": "Donut de chocolate rellena",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 310,
+    "protein": 4.0,
+    "carbs": 34.0,
+    "fat": 18.0,
+    "portion": "1 unidad (85g)",
+    "tags": [
+      "ring",
+      "dark"
+    ]
+  },
+  {
+    "id": 370,
+    "name": "Churro frito con azúcar",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 160,
+    "protein": 2.0,
+    "carbs": 20.0,
+    "fat": 8.0,
+    "portion": "2 churros (50g)",
+    "tags": [
+      "golden",
+      "ridged"
+    ]
+  },
+  {
+    "id": 371,
+    "name": "Cheesecake de frutilla",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 320,
+    "protein": 5.5,
+    "carbs": 32.0,
+    "fat": 19.0,
+    "portion": "1 rebanada (120g)",
+    "tags": [
+      "triangular",
+      "red"
+    ]
+  },
+  {
+    "id": 372,
+    "name": "Tarta de manzana casera",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 260,
+    "protein": 2.5,
+    "carbs": 38.0,
+    "fat": 11.0,
+    "portion": "1 rebanada (120g)",
+    "tags": [
+      "baked",
+      "golden"
+    ]
+  },
+  {
+    "id": 373,
+    "name": "Tiramisú italiano",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 290,
+    "protein": 4.5,
+    "carbs": 28.0,
+    "fat": 17.0,
+    "portion": "1 porción (100g)",
+    "tags": [
+      "layered",
+      "cocoa"
+    ]
+  },
+  {
+    "id": 374,
+    "name": "Pie de limón con merengue",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 310,
+    "protein": 4.0,
+    "carbs": 44.0,
+    "fat": 13.0,
+    "portion": "1 rebanada (120g)",
+    "tags": [
+      "white",
+      "yellow"
+    ]
+  },
+  {
+    "id": 375,
+    "name": "Cuchuflí relleno de manjar",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 45,
+    "protein": 0.8,
+    "carbs": 7.5,
+    "fat": 1.4,
+    "portion": "1 unidad (12g)",
+    "tags": [
+      "tube",
+      "crispy"
+    ]
+  },
+  {
+    "id": 376,
+    "name": "Volcán de chocolate fondant",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 340,
+    "protein": 5.0,
+    "carbs": 34.0,
+    "fat": 21.0,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "dark",
+      "molten"
+    ]
+  },
+  {
+    "id": 377,
+    "name": "Helado de vainilla en cono",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 180,
+    "protein": 3.5,
+    "carbs": 24.0,
+    "fat": 8.0,
+    "portion": "1 cono (100g)",
+    "tags": [
+      "cone",
+      "creamy"
+    ]
+  },
+  {
+    "id": 378,
+    "name": "Paleta de agua sabor frambuesa",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 70,
+    "protein": 0.0,
+    "carbs": 17.0,
+    "fat": 0.0,
+    "portion": "1 paleta (80g)",
+    "tags": [
+      "red",
+      "stick"
+    ]
+  },
+  {
+    "id": 379,
+    "name": "Papas fritas en bolsa",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 160,
+    "protein": 2.0,
+    "carbs": 15.0,
+    "fat": 10.0,
+    "portion": "1 bolsa personal (30g)",
+    "tags": [
+      "yellow",
+      "bag"
+    ]
+  },
+  {
+    "id": 380,
+    "name": "Doritos Nacho cheese",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 150,
+    "protein": 2.0,
+    "carbs": 18.0,
+    "fat": 8.0,
+    "portion": "1 bolsa personal (30g)",
+    "tags": [
+      "orange",
+      "triangle"
+    ]
+  },
+  {
+    "id": 381,
+    "name": "Ramitas de queso frito",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 160,
+    "protein": 2.5,
+    "carbs": 16.0,
+    "fat": 9.5,
+    "portion": "1 porción (30g)",
+    "tags": [
+      "yellow",
+      "sticks"
+    ]
+  },
+  {
+    "id": 382,
+    "name": "Maní salado frito",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 175,
+    "protein": 7.5,
+    "carbs": 5.0,
+    "fat": 14.5,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "brown",
+      "nuts"
+    ]
+  },
+  {
+    "id": 383,
+    "name": "Maní confitado con azúcar",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 150,
+    "protein": 4.0,
+    "carbs": 18.0,
+    "fat": 7.0,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "red",
+      "sweet"
+    ]
+  },
+  {
+    "id": 384,
+    "name": "Pipas de girasol saladas",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 170,
+    "protein": 6.0,
+    "carbs": 5.0,
+    "fat": 14.0,
+    "portion": "1 puñado (30g)",
+    "tags": [
+      "dark",
+      "seeds"
+    ]
+  },
+  {
+    "id": 385,
+    "name": "Popcorn / Cabritas saladas",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 120,
+    "protein": 3.0,
+    "carbs": 16.0,
+    "fat": 5.0,
+    "portion": "2 tazas (30g)",
+    "tags": [
+      "white",
+      "puffed"
+    ]
+  },
+  {
+    "id": 386,
+    "name": "Popcorn dulce con caramelo",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 150,
+    "protein": 1.5,
+    "carbs": 24.0,
+    "fat": 5.5,
+    "portion": "2 tazas (35g)",
+    "tags": [
+      "golden",
+      "sweet"
+    ]
+  },
+  {
+    "id": 387,
+    "name": "Barra de proteína 20g whey",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 210,
+    "protein": 20.0,
+    "carbs": 22.0,
+    "fat": 6.0,
+    "portion": "1 barra (60g)",
+    "tags": [
+      "bar",
+      "dense"
+    ]
+  },
+  {
+    "id": 388,
+    "name": "Aceite de oliva extra virgen",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 119,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 13.5,
+    "portion": "1 cucharada (14ml)",
+    "tags": [
+      "yellow",
+      "oil"
+    ]
+  },
+  {
+    "id": 389,
+    "name": "Aceite de maravilla / Girasol",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 120,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 13.6,
+    "portion": "1 cucharada (14ml)",
+    "tags": [
+      "yellow",
+      "oil"
+    ]
+  },
+  {
+    "id": 390,
+    "name": "Aceite de coco virgen",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 120,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 13.6,
+    "portion": "1 cucharada (14ml)",
+    "tags": [
+      "clear",
+      "white"
+    ]
+  },
+  {
+    "id": 391,
+    "name": "Mayonesa tradicional",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 90,
+    "protein": 0.1,
+    "carbs": 0.5,
+    "fat": 10.0,
+    "portion": "1 cucharada (14g)",
+    "tags": [
+      "white",
+      "creamy"
+    ]
+  },
+  {
+    "id": 392,
+    "name": "Mayonesa Light",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 35,
+    "protein": 0.1,
+    "carbs": 1.5,
+    "fat": 3.5,
+    "portion": "1 cucharada (14g)",
+    "tags": [
+      "white",
+      "light"
+    ]
+  },
+  {
+    "id": 393,
+    "name": "Ketchup tradicional",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 20,
+    "protein": 0.2,
+    "carbs": 5.0,
+    "fat": 0.0,
+    "portion": "1 cucharada (17g)",
+    "tags": [
+      "red",
+      "sauce"
+    ]
+  },
+  {
+    "id": 394,
+    "name": "Mostaza dijon / Amarilla",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 10,
+    "protein": 0.6,
+    "carbs": 0.8,
+    "fat": 0.6,
+    "portion": "1 cucharada (15g)",
+    "tags": [
+      "yellow",
+      "paste"
+    ]
+  },
+  {
+    "id": 395,
+    "name": "Salsa de soya baja en sodio",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 10,
+    "protein": 1.3,
+    "carbs": 1.0,
+    "fat": 0.0,
+    "portion": "1 cucharada (15ml)",
+    "tags": [
+      "dark",
+      "liquid"
+    ]
+  },
+  {
+    "id": 396,
+    "name": "Salsa Sriracha picante",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 15,
+    "protein": 0.3,
+    "carbs": 3.0,
+    "fat": 0.2,
+    "portion": "1 cucharada (15g)",
+    "tags": [
+      "red",
+      "spicy"
+    ]
+  },
+  {
+    "id": 397,
+    "name": "Salsa Barbecue BBQ",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 30,
+    "protein": 0.2,
+    "carbs": 7.5,
+    "fat": 0.1,
+    "portion": "1 cucharada (18g)",
+    "tags": [
+      "dark",
+      "sweet"
+    ]
+  },
+  {
+    "id": 398,
+    "name": "Salsa de tomate pomodoro",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 25,
+    "protein": 1.0,
+    "carbs": 5.0,
+    "fat": 0.2,
+    "portion": "1/4 taza (60g)",
+    "tags": [
+      "red",
+      "thick"
+    ]
+  },
+  {
+    "id": 399,
+    "name": "Pesto de albahaca fresco",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 80,
+    "protein": 1.5,
+    "carbs": 1.0,
+    "fat": 8.0,
+    "portion": "1 cucharada (15g)",
+    "tags": [
+      "green",
+      "oily"
+    ]
+  },
+  {
+    "id": 400,
+    "name": "Vinagre balsámico",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 14,
+    "protein": 0.1,
+    "carbs": 2.7,
+    "fat": 0.0,
+    "portion": "1 cucharada (15ml)",
+    "tags": [
+      "dark",
+      "acidic"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "Miel de abejas pura",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 64,
+    "protein": 0.1,
+    "carbs": 17.3,
+    "fat": 0.0,
+    "portion": "1 cucharada (21g)",
+    "tags": [
+      "golden",
+      "sticky"
+    ]
+  },
+  {
+    "id": 402,
+    "name": "Jarabe de arce / Maple syrup",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 52,
+    "protein": 0.0,
+    "carbs": 13.4,
+    "fat": 0.0,
+    "portion": "1 cucharada (20g)",
+    "tags": [
+      "amber",
+      "liquid"
+    ]
+  },
+  {
+    "id": 403,
+    "name": "Mermelada de damasco",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 50,
+    "protein": 0.1,
+    "carbs": 13.0,
+    "fat": 0.0,
+    "portion": "1 cucharada (20g)",
+    "tags": [
+      "orange",
+      "spread"
+    ]
+  },
+  {
+    "id": 404,
+    "name": "Stevia endulzante",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "fat": 0.0,
+    "portion": "1 sobre (1g)",
+    "tags": [
+      "white",
+      "powder"
+    ]
+  },
+  {
+    "id": 405,
+    "name": "Proteína vegetal en polvo",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 110,
+    "protein": 22.0,
+    "carbs": 3.0,
+    "fat": 1.5,
+    "portion": "1 scoop (30g)",
+    "tags": [
+      "greenish",
+      "powder"
+    ]
+  },
+  {
+    "id": 406,
+    "name": "Gelatina de frutilla sin azúcar",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 10,
+    "protein": 1.2,
+    "carbs": 1.2,
+    "fat": 0.0,
+    "portion": "1 pote (100g)",
+    "tags": [
+      "red",
+      "jelly"
+    ]
+  },
+  {
+    "id": 407,
+    "name": "Mochi japonés de té verde",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 180,
+    "protein": 2.0,
+    "carbs": 38.0,
+    "fat": 2.0,
+    "portion": "2 piezas (70g)",
+    "tags": [
+      "green",
+      "round"
+    ]
+  },
+  {
+    "id": 408,
+    "name": "Taiyaki relleno de manjar",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 210,
+    "protein": 4.0,
+    "carbs": 40.0,
+    "fat": 3.5,
+    "portion": "1 unidad (90g)",
+    "tags": [
+      "fish",
+      "baked"
+    ]
+  },
+  {
+    "id": 409,
+    "name": "Dorayaki relleno de anko",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 220,
+    "protein": 4.5,
+    "carbs": 44.0,
+    "fat": 3.0,
+    "portion": "1 unidad (80g)",
+    "tags": [
+      "pancake",
+      "round"
+    ]
+  },
+  {
+    "id": 410,
+    "name": "Matcha latte frío con hielo",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 90,
+    "protein": 3.0,
+    "carbs": 12.0,
+    "fat": 3.0,
+    "portion": "1 vaso (300ml)",
+    "tags": [
+      "green",
+      "ice"
+    ]
+  },
+  {
+    "id": 411,
+    "name": "Kombucha fermentada",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 35,
+    "protein": 0.0,
+    "carbs": 8.0,
+    "fat": 0.0,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "bubbly",
+      "amber"
+    ]
+  },
+  {
+    "id": 412,
+    "name": "Smoothie de proteína",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 190,
+    "protein": 18.0,
+    "carbs": 22.0,
+    "fat": 2.5,
+    "portion": "1 vaso (300ml)",
+    "tags": [
+      "purple",
+      "thick"
+    ]
+  },
+  {
+    "id": 413,
+    "name": "Smoothie verde detox",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 95,
+    "protein": 2.0,
+    "carbs": 21.0,
+    "fat": 0.5,
+    "portion": "1 vaso (300ml)",
+    "tags": [
+      "green",
+      "liquid"
+    ]
+  },
+  {
+    "id": 414,
+    "name": "Agua de coco 100% natural",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 45,
+    "protein": 0.7,
+    "carbs": 11.0,
+    "fat": 0.2,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "clear",
+      "tropical"
+    ]
+  },
+  {
+    "id": 415,
+    "name": "Horchata de arroz mexicana",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 140,
+    "protein": 1.0,
+    "carbs": 28.0,
+    "fat": 2.5,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "white",
+      "cinnamon"
+    ]
+  },
+  {
+    "id": 416,
+    "name": "Licuado de plátano con leche",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 190,
+    "protein": 6.5,
+    "carbs": 34.0,
+    "fat": 3.5,
+    "portion": "1 vaso (300ml)",
+    "tags": [
+      "creamy",
+      "yellow"
+    ]
+  },
+  {
+    "id": 417,
+    "name": "Milkshake de chocolate",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 380,
+    "protein": 7.0,
+    "carbs": 52.0,
+    "fat": 16.0,
+    "portion": "1 vaso (350ml)",
+    "tags": [
+      "brown",
+      "rich"
+    ]
+  },
+  {
+    "id": 418,
+    "name": "Granizado de menta",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 80,
+    "protein": 0.0,
+    "carbs": 20.0,
+    "fat": 0.0,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "green",
+      "slush"
+    ]
+  },
+  {
+    "id": 419,
+    "name": "Bebida energizante Red Bull",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 110,
+    "protein": 0.0,
+    "carbs": 28.0,
+    "fat": 0.0,
+    "portion": "1 lata (250ml)",
+    "tags": [
+      "golden",
+      "can"
+    ]
+  },
+  {
+    "id": 420,
+    "name": "Bebida energizante Monster Zero",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 5,
+    "protein": 0.0,
+    "carbs": 1.0,
+    "fat": 0.0,
+    "portion": "1 lata (473ml)",
+    "tags": [
+      "black",
+      "zero"
+    ]
+  },
+  {
+    "id": 421,
+    "name": "Cerveza artesanal IPA",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 210,
+    "protein": 2.0,
+    "carbs": 18.0,
+    "fat": 0.0,
+    "portion": "1 vaso (350ml)",
+    "tags": [
+      "amber",
+      "cloudy"
+    ]
+  },
+  {
+    "id": 422,
+    "name": "Mojito clásico",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 160,
+    "protein": 0.2,
+    "carbs": 16.0,
+    "fat": 0.0,
+    "portion": "1 vaso (200ml)",
+    "tags": [
+      "green",
+      "rum"
+    ]
+  },
+  {
+    "id": 423,
+    "name": "Piña Colada con crema de coco",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 320,
+    "protein": 1.5,
+    "carbs": 42.0,
+    "fat": 14.0,
+    "portion": "1 copa (250ml)",
+    "tags": [
+      "white",
+      "pineapple"
+    ]
+  },
+  {
+    "id": 424,
+    "name": "Sangría de vino tinto",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 170,
+    "protein": 0.5,
+    "carbs": 22.0,
+    "fat": 0.0,
+    "portion": "1 copa (200ml)",
+    "tags": [
+      "red",
+      "fruity"
+    ]
+  },
+  {
+    "id": 425,
+    "name": "Aperol Spritz espumante",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 130,
+    "protein": 0.1,
+    "carbs": 10.0,
+    "fat": 0.0,
+    "portion": "1 copa (180ml)",
+    "tags": [
+      "orange",
+      "bubbly"
+    ]
+  },
+  {
+    "id": 426,
+    "name": "Matcha helado casero",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 140,
+    "protein": 3.0,
+    "carbs": 22.0,
+    "fat": 4.5,
+    "portion": "1 bola (80g)",
+    "tags": [
+      "green",
+      "scoop"
+    ]
+  },
+  {
+    "id": 427,
+    "name": "Crepe dulce con nutella",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 340,
+    "protein": 5.5,
+    "carbs": 48.0,
+    "fat": 14.0,
+    "portion": "1 crepe (150g)",
+    "tags": [
+      "folded",
+      "chocolate"
+    ]
+  },
+  {
+    "id": 428,
+    "name": "Waffles de liège",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 290,
+    "protein": 4.5,
+    "carbs": 38.0,
+    "fat": 13.0,
+    "portion": "1 waffle (90g)",
+    "tags": [
+      "grid",
+      "caramel"
+    ]
+  },
+  {
+    "id": 429,
+    "name": "Macaron francés de frambuesa",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 150,
+    "protein": 2.5,
+    "carbs": 20.0,
+    "fat": 7.0,
+    "portion": "2 piezas (35g)",
+    "tags": [
+      "pink",
+      "round"
+    ]
+  },
+  {
+    "id": 430,
+    "name": "Canelé de Burdeos casero",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 140,
+    "protein": 2.0,
+    "carbs": 24.0,
+    "fat": 3.5,
+    "portion": "1 unidad (50g)",
+    "tags": [
+      "brown",
+      "caramelized"
+    ]
+  },
+  {
+    "id": 431,
+    "name": "Baklava de pistacho",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 230,
+    "protein": 3.5,
+    "carbs": 26.0,
+    "fat": 12.0,
+    "portion": "1 trozo (50g)",
+    "tags": [
+      "layered",
+      "syrup"
+    ]
+  },
+  {
+    "id": 432,
+    "name": "Turrón duro de almendras",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 160,
+    "protein": 3.8,
+    "carbs": 16.0,
+    "fat": 9.0,
+    "portion": "1 trozo (30g)",
+    "tags": [
+      "white",
+      "hard"
+    ]
+  },
+  {
+    "id": 433,
+    "name": "Mantecado tradicional",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 150,
+    "protein": 2.0,
+    "carbs": 17.0,
+    "fat": 8.5,
+    "portion": "1 unidad (30g)",
+    "tags": [
+      "crumbly",
+      "sweet"
+    ]
+  },
+  {
+    "id": 434,
+    "name": "Panettone con frutas",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 280,
+    "protein": 5.5,
+    "carbs": 42.0,
+    "fat": 10.0,
+    "portion": "1 rebanada (80g)",
+    "tags": [
+      "tall",
+      "fluffy"
+    ]
+  },
+  {
+    "id": 435,
+    "name": "Rosca de reyes con crema",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 260,
+    "protein": 5.0,
+    "carbs": 38.0,
+    "fat": 9.5,
+    "portion": "1 rebanada (80g)",
+    "tags": [
+      "oval",
+      "fruit"
+    ]
+  },
+  {
+    "id": 436,
+    "name": "Empanada dulce de manzana",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 210,
+    "protein": 3.0,
+    "carbs": 32.0,
+    "fat": 8.0,
+    "portion": "1 unidad (90g)",
+    "tags": [
+      "baked",
+      "sweet"
+    ]
+  },
+  {
+    "id": 437,
+    "name": "Pretzel salado horneado",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 230,
+    "protein": 6.0,
+    "carbs": 47.0,
+    "fat": 1.5,
+    "portion": "1 pretzel (80g)",
+    "tags": [
+      "twisted",
+      "salt"
+    ]
+  },
+  {
+    "id": 438,
+    "name": "Bagel con sésamo",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 240,
+    "protein": 9.0,
+    "carbs": 46.0,
+    "fat": 1.8,
+    "portion": "1 bagel (90g)",
+    "tags": [
+      "ring",
+      "dense"
+    ]
+  },
+  {
+    "id": 439,
+    "name": "Muffin de chocolate chip",
+    "category": "Snacks, Postres y Bebidas",
+    "calories": 320,
+    "protein": 4.5,
+    "carbs": 46.0,
+    "fat": 14.0,
+    "portion": "1 muffin (100g)",
+    "tags": [
+      "dark",
+      "muffin"
+    ]
+  },
+  {
+    "id": 440,
+    "name": "Maki Roll Filadelfia",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 290,
+    "protein": 9.0,
+    "carbs": 48.0,
+    "fat": 7.0,
+    "portion": "8 piezas (200g)",
+    "tags": [
+      "salmon",
+      "creamcheese"
+    ]
+  },
+  {
+    "id": 441,
+    "name": "Sushi Roll Ebi Tempura",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 380,
+    "protein": 11.0,
+    "carbs": 54.0,
+    "fat": 13.0,
+    "portion": "8 piezas (220g)",
+    "tags": [
+      "shrimp",
+      "crispy"
+    ]
+  },
+  {
+    "id": 442,
+    "name": "Sashimi de Atún Rojo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 120,
+    "protein": 26.0,
+    "carbs": 0.0,
+    "fat": 1.0,
+    "portion": "6 cortes (100g)",
+    "tags": [
+      "red",
+      "tuna"
+    ]
+  },
+  {
+    "id": 443,
+    "name": "Unadon / Anguila sobre arroz",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 450,
+    "protein": 21.0,
+    "carbs": 58.0,
+    "fat": 14.0,
+    "portion": "1 bowl (350g)",
+    "tags": [
+      "glaze",
+      "eel"
+    ]
+  },
+  {
+    "id": 444,
+    "name": "Katsu Curry de cerdo con arroz",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 680,
+    "protein": 26.0,
+    "carbs": 75.0,
+    "fat": 30.0,
+    "portion": "1 plato (450g)",
+    "tags": [
+      "curry",
+      "crispy"
+    ]
+  },
+  {
+    "id": 445,
+    "name": "Tonkatsu empanado de cerdo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 360,
+    "protein": 24.0,
+    "carbs": 18.0,
+    "fat": 21.0,
+    "portion": "1 chuleta (180g)",
+    "tags": [
+      "golden",
+      "breaded"
+    ]
+  },
+  {
+    "id": 446,
+    "name": "Yakitori brochetas de pollo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 240,
+    "protein": 28.0,
+    "carbs": 6.0,
+    "fat": 11.0,
+    "portion": "3 brochetas (150g)",
+    "tags": [
+      "skewer",
+      "glaze"
+    ]
+  },
+  {
+    "id": 447,
+    "name": "Okonomiyaki / Tarta salada japonesa",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 390,
+    "protein": 16.0,
+    "carbs": 42.0,
+    "fat": 17.0,
+    "portion": "1 porción (250g)",
+    "tags": [
+      "cabbage",
+      "sauce"
+    ]
+  },
+  {
+    "id": 448,
+    "name": "Takoyaki / Bolitas de pulpo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 280,
+    "protein": 10.0,
+    "carbs": 36.0,
+    "fat": 10.0,
+    "portion": "6 unidades (180g)",
+    "tags": [
+      "round",
+      "sauce"
+    ]
+  },
+  {
+    "id": 449,
+    "name": "Onigiri de salmón",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 180,
+    "protein": 5.0,
+    "carbs": 36.0,
+    "fat": 1.5,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "triangle",
+      "nori"
+    ]
+  },
+  {
+    "id": 450,
+    "name": "Onigiri de atún mayo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 210,
+    "protein": 6.0,
+    "carbs": 35.0,
+    "fat": 5.5,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "triangle",
+      "mayo"
+    ]
+  },
+  {
+    "id": 451,
+    "name": "Bao de panceta de cerdo braised",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 320,
+    "protein": 12.0,
+    "carbs": 34.0,
+    "fat": 15.0,
+    "portion": "1 bao (120g)",
+    "tags": [
+      "steamed",
+      "bun"
+    ]
+  },
+  {
+    "id": 452,
+    "name": "Dim Sum Hakao de camarón",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 180,
+    "protein": 11.0,
+    "carbs": 24.0,
+    "fat": 4.0,
+    "portion": "4 unidades (100g)",
+    "tags": [
+      "translucent",
+      "pink"
+    ]
+  },
+  {
+    "id": 453,
+    "name": "Siu Mai de cerdo y hongo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 220,
+    "protein": 12.0,
+    "carbs": 18.0,
+    "fat": 11.0,
+    "portion": "4 unidades (100g)",
+    "tags": [
+      "open",
+      "yellow"
+    ]
+  },
+  {
+    "id": 454,
+    "name": "Lo Mein de carne y verduras",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 410,
+    "protein": 20.0,
+    "carbs": 52.0,
+    "fat": 13.0,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "noodles",
+      "sauce"
+    ]
+  },
+  {
+    "id": 455,
+    "name": "Pollo Naranjo estilo chino",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 430,
+    "protein": 22.0,
+    "carbs": 45.0,
+    "fat": 18.0,
+    "portion": "1 plato (280g)",
+    "tags": [
+      "orange",
+      "crispy"
+    ]
+  },
+  {
+    "id": 456,
+    "name": "Pollo Ajonjolí sésamo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 440,
+    "protein": 24.0,
+    "carbs": 42.0,
+    "fat": 20.0,
+    "portion": "1 plato (280g)",
+    "tags": [
+      "seeds",
+      "glaze"
+    ]
+  },
+  {
+    "id": 457,
+    "name": "Sopa Wonton tradicional",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 140,
+    "protein": 8.0,
+    "carbs": 18.0,
+    "fat": 3.5,
+    "portion": "1 bowl (300ml)",
+    "tags": [
+      "dumpling",
+      "soup"
+    ]
+  },
+  {
+    "id": 458,
+    "name": "Sopa Agripicante Pekinesa",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 160,
+    "protein": 9.0,
+    "carbs": 14.0,
+    "fat": 7.0,
+    "portion": "1 bowl (300ml)",
+    "tags": [
+      "spicy",
+      "tofu"
+    ]
+  },
+  {
+    "id": 459,
+    "name": "Kimchi Bokkeumbap",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 390,
+    "protein": 12.0,
+    "carbs": 64.0,
+    "fat": 9.0,
+    "portion": "1 plato (300g)",
+    "tags": [
+      "red",
+      "egg"
+    ]
+  },
+  {
+    "id": 460,
+    "name": "Mandu coreanos fritos",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 260,
+    "protein": 11.0,
+    "carbs": 28.0,
+    "fat": 11.0,
+    "portion": "5 dumpling (130g)",
+    "tags": [
+      "crescent",
+      "fried"
+    ]
+  },
+  {
+    "id": 461,
+    "name": "Sundubu Jjigae",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 210,
+    "protein": 14.0,
+    "carbs": 12.0,
+    "fat": 12.0,
+    "portion": "1 bowl (350ml)",
+    "tags": [
+      "red",
+      "soft"
+    ]
+  },
+  {
+    "id": 462,
+    "name": "Samgyeopsal panceta",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 420,
+    "protein": 18.0,
+    "carbs": 0.0,
+    "fat": 38.0,
+    "portion": "1 porción (150g)",
+    "tags": [
+      "pork",
+      "grilled"
+    ]
+  },
+  {
+    "id": 463,
+    "name": "Galbi costillas marinadas",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 380,
+    "protein": 26.0,
+    "carbs": 14.0,
+    "fat": 24.0,
+    "portion": "1 porción (180g)",
+    "tags": [
+      "beef",
+      "glazed"
+    ]
+  },
+  {
+    "id": 464,
+    "name": "Kimbap coreano",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 320,
+    "protein": 10.0,
+    "carbs": 54.0,
+    "fat": 6.0,
+    "portion": "1 rollo (220g)",
+    "tags": [
+      "roll",
+      "seaweed"
+    ]
+  },
+  {
+    "id": 465,
+    "name": "Ravioles de espinaca",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 310,
+    "protein": 12.0,
+    "carbs": 42.0,
+    "fat": 10.0,
+    "portion": "1 plato (220g)",
+    "tags": [
+      "square",
+      "pasta"
+    ]
+  },
+  {
+    "id": 466,
+    "name": "Gnocchi al pesto",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 420,
+    "protein": 9.0,
+    "carbs": 50.0,
+    "fat": 20.0,
+    "portion": "1 plato (250g)",
+    "tags": [
+      "green",
+      "potato"
+    ]
+  },
+  {
+    "id": 467,
+    "name": "Cannoli siciliano",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 260,
+    "protein": 5.0,
+    "carbs": 28.0,
+    "fat": 14.0,
+    "portion": "1 unidad (80g)",
+    "tags": [
+      "shell",
+      "sweet"
+    ]
+  },
+  {
+    "id": 468,
+    "name": "Panna Cotta frutos rojos",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 210,
+    "protein": 4.0,
+    "carbs": 24.0,
+    "fat": 11.0,
+    "portion": "1 pote (120g)",
+    "tags": [
+      "white",
+      "jelly"
+    ]
+  },
+  {
+    "id": 469,
+    "name": "Empanada colombiana de carne",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 220,
+    "protein": 8.0,
+    "carbs": 22.0,
+    "fat": 11.0,
+    "portion": "1 empanada (90g)",
+    "tags": [
+      "yellow",
+      "fried"
+    ]
+  },
+  {
+    "id": 470,
+    "name": "Patacón con queso",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 240,
+    "protein": 3.5,
+    "carbs": 30.0,
+    "fat": 12.0,
+    "portion": "2 unidades (120g)",
+    "tags": [
+      "plantain",
+      "fried"
+    ]
+  },
+  {
+    "id": 471,
+    "name": "Tostón carne desmechada",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 290,
+    "protein": 16.0,
+    "carbs": 28.0,
+    "fat": 13.0,
+    "portion": "1 unidad (150g)",
+    "tags": [
+      "plantain",
+      "beef"
+    ]
+  },
+  {
+    "id": 472,
+    "name": "Pupusa de chicharrón",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 270,
+    "protein": 11.0,
+    "carbs": 29.0,
+    "fat": 12.0,
+    "portion": "1 pupusa (120g)",
+    "tags": [
+      "round",
+      "stuffed"
+    ]
+  },
+  {
+    "id": 473,
+    "name": "Tamal de pollo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 340,
+    "protein": 15.0,
+    "carbs": 38.0,
+    "fat": 14.0,
+    "portion": "1 tamal (220g)",
+    "tags": [
+      "wrapped",
+      "corn"
+    ]
+  },
+  {
+    "id": 474,
+    "name": "Humita dulce",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 210,
+    "protein": 5.0,
+    "carbs": 36.0,
+    "fat": 5.0,
+    "portion": "1 humita (150g)",
+    "tags": [
+      "sweet",
+      "corn"
+    ]
+  },
+  {
+    "id": 475,
+    "name": "Pastel de choclo chico",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 420,
+    "protein": 20.0,
+    "carbs": 48.0,
+    "fat": 16.0,
+    "portion": "1 porción (300g)",
+    "tags": [
+      "sweet",
+      "beef"
+    ]
+  },
+  {
+    "id": 476,
+    "name": "Marraqueta palta y huevo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 320,
+    "protein": 11.0,
+    "carbs": 32.0,
+    "fat": 16.0,
+    "portion": "1/2 marraqueta (150g)",
+    "tags": [
+      "green",
+      "egg"
+    ]
+  },
+  {
+    "id": 477,
+    "name": "Sándwich Barros Jarpa",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 380,
+    "protein": 18.0,
+    "carbs": 34.0,
+    "fat": 19.0,
+    "portion": "1 sándwich (160g)",
+    "tags": [
+      "ham",
+      "cheese"
+    ]
+  },
+  {
+    "id": 478,
+    "name": "Sándwich Ave Palta",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 360,
+    "protein": 19.0,
+    "carbs": 30.0,
+    "fat": 18.0,
+    "portion": "1 sándwich (180g)",
+    "tags": [
+      "chicken",
+      "green"
+    ]
+  },
+  {
+    "id": 479,
+    "name": "Sándwich Ave Mayo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 340,
+    "protein": 17.0,
+    "carbs": 30.0,
+    "fat": 16.0,
+    "portion": "1 sándwich (170g)",
+    "tags": [
+      "chicken",
+      "white"
+    ]
+  },
+  {
+    "id": 480,
+    "name": "Sándwich Mechada italiana",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 560,
+    "protein": 32.0,
+    "carbs": 42.0,
+    "fat": 29.0,
+    "portion": "1 sándwich (280g)",
+    "tags": [
+      "shredded",
+      "green"
+    ]
+  },
+  {
+    "id": 481,
+    "name": "Empanada mariscos frita",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 320,
+    "protein": 14.0,
+    "carbs": 28.0,
+    "fat": 17.0,
+    "portion": "1 empanada (140g)",
+    "tags": [
+      "seafood",
+      "fried"
+    ]
+  },
+  {
+    "id": 482,
+    "name": "Empanada napolitana al horno",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 310,
+    "protein": 12.0,
+    "carbs": 35.0,
+    "fat": 13.0,
+    "portion": "1 empanada (150g)",
+    "tags": [
+      "ham",
+      "cheese"
+    ]
+  },
+  {
+    "id": 483,
+    "name": "Papas fritas con cheddar y bacon",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 480,
+    "protein": 10.0,
+    "carbs": 44.0,
+    "fat": 30.0,
+    "portion": "1 porción (200g)",
+    "tags": [
+      "fries",
+      "loaded"
+    ]
+  },
+  {
+    "id": 484,
+    "name": "Aros de cebolla apanados",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 280,
+    "protein": 4.0,
+    "carbs": 34.0,
+    "fat": 14.0,
+    "portion": "8 unidades (120g)",
+    "tags": [
+      "rings",
+      "crispy"
+    ]
+  },
+  {
+    "id": 485,
+    "name": "Mocaccino con crema",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 220,
+    "protein": 6.0,
+    "carbs": 28.0,
+    "fat": 9.0,
+    "portion": "1 taza (250ml)",
+    "tags": [
+      "chocolate",
+      "coffee"
+    ]
+  },
+  {
+    "id": 486,
+    "name": "Cold Brew vainilla",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 90,
+    "protein": 1.0,
+    "carbs": 12.0,
+    "fat": 4.0,
+    "portion": "1 vaso (350ml)",
+    "tags": [
+      "cold",
+      "iced"
+    ]
+  },
+  {
+    "id": 487,
+    "name": "Iced Caramel Macchiato",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 240,
+    "protein": 6.0,
+    "carbs": 35.0,
+    "fat": 8.0,
+    "portion": "1 vaso (400ml)",
+    "tags": [
+      "caramel",
+      "ice"
+    ]
+  },
+  {
+    "id": 488,
+    "name": "Smoothie mango yogur",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 180,
+    "protein": 5.0,
+    "carbs": 36.0,
+    "fat": 2.0,
+    "portion": "1 vaso (300ml)",
+    "tags": [
+      "yellow",
+      "creamy"
+    ]
+  },
+  {
+    "id": 489,
+    "name": "Smoothie acai banana",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 210,
+    "protein": 4.0,
+    "carbs": 42.0,
+    "fat": 3.5,
+    "portion": "1 vaso (300ml)",
+    "tags": [
+      "purple",
+      "dense"
+    ]
+  },
+  {
+    "id": 490,
+    "name": "Jugo de piña y jengibre",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 95,
+    "protein": 0.8,
+    "carbs": 23.0,
+    "fat": 0.2,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "yellow",
+      "fresh"
+    ]
+  },
+  {
+    "id": 491,
+    "name": "Jugo betarraga zanahoria",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 85,
+    "protein": 1.8,
+    "carbs": 19.0,
+    "fat": 0.3,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "purple",
+      "fresh"
+    ]
+  },
+  {
+    "id": 492,
+    "name": "Licuado de frutilla leche",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 160,
+    "protein": 5.5,
+    "carbs": 26.0,
+    "fat": 3.5,
+    "portion": "1 vaso (300ml)",
+    "tags": [
+      "pink",
+      "sweet"
+    ]
+  },
+  {
+    "id": 493,
+    "name": "Lassi de mango",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 220,
+    "protein": 6.0,
+    "carbs": 36.0,
+    "fat": 5.0,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "yellow",
+      "yogurt"
+    ]
+  },
+  {
+    "id": 494,
+    "name": "Chicha morada peruana",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 120,
+    "protein": 0.3,
+    "carbs": 30.0,
+    "fat": 0.1,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "purple",
+      "spiced"
+    ]
+  },
+  {
+    "id": 495,
+    "name": "Horchata con canela",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 150,
+    "protein": 1.2,
+    "carbs": 30.0,
+    "fat": 2.8,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "white",
+      "sweet"
+    ]
+  },
+  {
+    "id": 496,
+    "name": "Agua de tamarindo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 110,
+    "protein": 0.4,
+    "carbs": 27.0,
+    "fat": 0.2,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "brown",
+      "tart"
+    ]
+  },
+  {
+    "id": 497,
+    "name": "Agua de jamaica",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 50,
+    "protein": 0.1,
+    "carbs": 12.5,
+    "fat": 0.0,
+    "portion": "1 vaso (250ml)",
+    "tags": [
+      "red",
+      "tart"
+    ]
+  },
+  {
+    "id": 498,
+    "name": "Submarino chocolate caliente",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 240,
+    "protein": 7.5,
+    "carbs": 26.0,
+    "fat": 12.0,
+    "portion": "1 taza (250ml)",
+    "tags": [
+      "chocolate",
+      "milk"
+    ]
+  },
+  {
+    "id": 499,
+    "name": "Milo con leche tibia",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 170,
+    "protein": 6.0,
+    "carbs": 24.0,
+    "fat": 5.0,
+    "portion": "1 taza (250ml)",
+    "tags": [
+      "cocoa",
+      "malt"
+    ]
+  },
+  {
+    "id": 500,
+    "name": "Té Chai latte",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 160,
+    "protein": 4.5,
+    "carbs": 26.0,
+    "fat": 4.0,
+    "portion": "1 taza (250ml)",
+    "tags": [
+      "spiced",
+      "milky"
+    ]
+  },
+  {
+    "id": 501,
+    "name": "Matcha bubble tea boba",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 310,
+    "protein": 4.0,
+    "carbs": 58.0,
+    "fat": 7.0,
+    "portion": "1 vaso (450ml)",
+    "tags": [
+      "green",
+      "boba"
+    ]
+  },
+  {
+    "id": 502,
+    "name": "Taro bubble tea boba",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 330,
+    "protein": 3.0,
+    "carbs": 62.0,
+    "fat": 7.5,
+    "portion": "1 vaso (450ml)",
+    "tags": [
+      "lavender",
+      "boba"
+    ]
+  },
+  {
+    "id": 503,
+    "name": "Brown sugar boba milk",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 380,
+    "protein": 5.0,
+    "carbs": 68.0,
+    "fat": 10.0,
+    "portion": "1 vaso (450ml)",
+    "tags": [
+      "boba",
+      "caramel"
+    ]
+  },
+  {
+    "id": 504,
+    "name": "Gelato de pistacho",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 190,
+    "protein": 4.5,
+    "carbs": 22.0,
+    "fat": 9.5,
+    "portion": "1 bola (90g)",
+    "tags": [
+      "green",
+      "creamy"
+    ]
+  },
+  {
+    "id": 505,
+    "name": "Gelato de avellana",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 210,
+    "protein": 4.0,
+    "carbs": 24.0,
+    "fat": 11.0,
+    "portion": "1 bola (90g)",
+    "tags": [
+      "hazelnut",
+      "scoop"
+    ]
+  },
+  {
+    "id": 506,
+    "name": "Sorbet de mango",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 110,
+    "protein": 0.5,
+    "carbs": 27.0,
+    "fat": 0.2,
+    "portion": "1 bola (90g)",
+    "tags": [
+      "orange",
+      "ice"
+    ]
+  },
+  {
+    "id": 507,
+    "name": "Sorbet de limón",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 95,
+    "protein": 0.2,
+    "carbs": 23.5,
+    "fat": 0.1,
+    "portion": "1 bola (90g)",
+    "tags": [
+      "yellow",
+      "tart"
+    ]
+  },
+  {
+    "id": 508,
+    "name": "Mousse de chocolate amargo",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 260,
+    "protein": 4.5,
+    "carbs": 24.0,
+    "fat": 17.0,
+    "portion": "1 copa (100g)",
+    "tags": [
+      "dark",
+      "fluffy"
+    ]
+  },
+  {
+    "id": 509,
+    "name": "Mousse de maracuyá",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 220,
+    "protein": 3.5,
+    "carbs": 28.0,
+    "fat": 10.0,
+    "portion": "1 copa (100g)",
+    "tags": [
+      "yellow",
+      "sweet"
+    ]
+  },
+  {
+    "id": 510,
+    "name": "Suspiro limeño",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 320,
+    "protein": 5.0,
+    "carbs": 52.0,
+    "fat": 10.0,
+    "portion": "1 copa (120g)",
+    "tags": [
+      "caramel",
+      "meringue"
+    ]
+  },
+  {
+    "id": 511,
+    "name": "Créme brûlée",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 290,
+    "protein": 4.0,
+    "carbs": 20.0,
+    "fat": 22.0,
+    "portion": "1 ramequín (120g)",
+    "tags": [
+      "caramelized",
+      "custard"
+    ]
+  },
+  {
+    "id": 512,
+    "name": "Waffle con helado",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 420,
+    "protein": 6.0,
+    "carbs": 58.0,
+    "fat": 18.0,
+    "portion": "1 porción (180g)",
+    "tags": [
+      "waffle",
+      "icecream"
+    ]
+  },
+  {
+    "id": 513,
+    "name": "Crepe suzette",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 280,
+    "protein": 4.0,
+    "carbs": 38.0,
+    "fat": 12.0,
+    "portion": "1 crepe (130g)",
+    "tags": [
+      "orange",
+      "flambé"
+    ]
+  },
+  {
+    "id": 514,
+    "name": "Churros dip chocolate",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 320,
+    "protein": 4.5,
+    "carbs": 42.0,
+    "fat": 15.0,
+    "portion": "4 churros (120g)",
+    "tags": [
+      "crispy",
+      "dip"
+    ]
+  },
+  {
+    "id": 515,
+    "name": "Volcán de manjar",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 330,
+    "protein": 6.0,
+    "carbs": 44.0,
+    "fat": 14.0,
+    "portion": "1 unidad (100g)",
+    "tags": [
+      "caramel",
+      "gooey"
+    ]
+  },
+  {
+    "id": 516,
+    "name": "Sopaipilla dulce",
+    "category": "Platos Asiáticos y Antojos",
+    "calories": 210,
+    "protein": 3.0,
+    "carbs": 30.0,
+    "fat": 9.0,
+    "portion": "2 unidades (100g)",
+    "tags": [
+      "orange",
+      "sweet"
+    ]
+  }
+]
